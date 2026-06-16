@@ -3,6 +3,7 @@ import { Download, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import Section from "./Section.jsx";
 
 const linkedinUrl = "https://www.linkedin.com/in/t-raja-satya-vardhan-reddy-05b1b8191";
+const resumeUrl = `${import.meta.env.BASE_URL}Raja_Resume.pdf`;
 
 export default function Contact() {
   return (
@@ -24,7 +25,7 @@ export default function Contact() {
           <a className="contact-link" href={linkedinUrl} target="_blank" rel="noreferrer">
             <Linkedin size={18} /> LinkedIn profile
           </a>
-          <a className="contact-link" href="/Raja_Resume.pdf">
+          <a className="contact-link" href={resumeUrl}>
             <Download size={18} /> Download resume
           </a>
           <div className="contact-link">

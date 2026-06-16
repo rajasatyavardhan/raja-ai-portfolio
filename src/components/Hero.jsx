@@ -1,6 +1,8 @@
 import React from "react";
 import { ArrowRight, Download, Github, Linkedin, Mail, MapPin, Sparkles } from "lucide-react";
 
+const resumeUrl = `${import.meta.env.BASE_URL}Raja_Resume.pdf`;
+
 export default function Hero() {
   return (
     <section id="top" className="relative isolate px-5 pb-16 pt-32 sm:px-8 lg:px-12">
@@ -33,7 +35,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-9 flex flex-wrap gap-3">
-            <a href="/Raja_Resume.pdf" className="inline-flex items-center gap-2 rounded-full bg-blue-700 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-blue-800">
+            <a href={resumeUrl} className="inline-flex items-center gap-2 rounded-full bg-blue-700 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-blue-800">
               <Download size={17} /> Resume
             </a>
             <a href="#projects" className="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-navy">

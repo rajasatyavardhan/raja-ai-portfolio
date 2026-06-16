@@ -9,6 +9,8 @@ const links = [
   ["Contact", "contact"],
 ];
 
+const resumeUrl = `${import.meta.env.BASE_URL}Raja_Resume.pdf`;
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -33,7 +35,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        <a href="/Raja_Resume.pdf" className="hidden rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-navy md:inline-flex">
+        <a href={resumeUrl} className="hidden rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-navy md:inline-flex">
           Resume
         </a>
 

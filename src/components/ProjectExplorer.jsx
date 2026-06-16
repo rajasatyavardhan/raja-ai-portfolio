@@ -29,6 +29,11 @@ const visualIcon = {
   default: BrainCircuit,
 };
 
+function publicAsset(path) {
+  if (!path?.startsWith("/")) return path;
+  return `${import.meta.env.BASE_URL}${path.slice(1)}`;
+}
+
 function normalizeProject(project, tier, index) {
   const lower = project.title.toLowerCase();
   let visualType = project.visualType || "default";
@@ -188,7 +193,7 @@ function ProjectModal({ project, onClose }) {
                 <div className="mt-4 grid grid-cols-3 gap-2">
                   {project.proofImages.slice(0, 3).map((src) => (
                     <div key={src} className="aspect-[4/3] overflow-hidden rounded-2xl border border-white/70 bg-white shadow-sm">
-                      <img src={src} alt={`${project.title} proof`} className="h-full w-full object-cover" loading="lazy" />
+                      <img src={publicAsset(src)} alt={`${project.title} proof`} className="h-full w-full object-cover" loading="lazy" />
                     </div>
                   ))}
                 </div>
