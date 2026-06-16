@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Raja Thippareddy | AI/ML Developer Portfolio</title>
+    <style>
+      :root {
+        --ink: #101828;
+        --muted: #475569;
+        --navy: #172554;
+        --blue: #2563eb;
+        --line: #dbe5f1;
+        --bg: #f8fafc;
+        --card: #ffffff;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 20% 8%, rgba(99,102,241,.18), transparent 28rem),
+          radial-gradient(circle at 80% 6%, rgba(14,165,233,.16), transparent 28rem),
+          var(--bg);
+      }
+      a { color: inherit; }
+      .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
+      nav {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid rgba(219,229,241,.9);
+        background: rgba(255,255,255,.86);
+        backdrop-filter: blur(16px);
+      }
+      nav .bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 22px; }
+      .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; text-decoration: none; }
+      .logo { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 16px; color: white; background: linear-gradient(135deg, #2563eb, #7c3aed); }
+      .navlinks { display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; color: #334155; }
+      .navlinks a { padding: 8px 12px; border-radius: 999px; text-decoration: none; }
+      .navlinks a:hover { background: #eef2ff; }
+      section { padding: 76px 0; }
+      .hero { padding-top: 92px; }
+      .pill, .tag, .evidence, .role {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .pill { border: 1px solid #bfdbfe; background: rgba(255,255,255,.82); color: #1e3a8a; padding: 9px 14px; }
+      h1 { max-width: 960px; margin: 22px 0 0; font-size: clamp(42px, 7vw, 78px); line-height: .96; letter-spacing: -0.055em; }
+      h2 { margin: 0 0 28px; font-size: clamp(30px, 4vw, 44px); letter-spacing: -0.035em; }
+      h3 { margin: 0; font-size: 24px; letter-spacing: -0.02em; }
+      p { color: var(--muted); line-height: 1.72; }
+      .lead { max-width: 820px; font-size: 20px; }
+      .roleline { margin-top: 20px; color: var(--navy); font-weight: 800; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        border-radius: 999px;
+        padding: 12px 18px;
+        border: 1px solid var(--line);
+        background: white;
+        color: #1e293b;
+        text-decoration: none;
+        font-weight: 800;
+        box-shadow: 0 14px 36px rgba(30,41,59,.08);
+      }
+      .btn.primary { background: var(--ink); color: white; border-color: var(--ink); }
+      .btn.blue { background: var(--blue); color: white; border-color: var(--blue); }
+      .grid { display: grid; gap: 22px; }
+      .two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .card {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 28px;
+        padding: 24px;
+        box-shadow: 0 18px 46px rgba(30,41,59,.08);
+      }
+      .card::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 6px;
+        background: linear-gradient(90deg, #2563eb, #7c3aed);
+      }
+      .wide { grid-column: span 2; }
+      .meta { margin: 10px 0 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+      .status { border: 1px solid #e2e8f0; background: #f8fafc; color: #475569; padding: 6px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; }
+      .why { margin: 18px 0; padding: 14px; border-radius: 18px; background: #eff6ff; color: #1e3a8a; font-size: 14px; line-height: 1.55; }
+      .placeholder {
+        display: grid;
+        place-items: center;
+        min-height: 150px;
+        border: 1px dashed #bfdbfe;
+        border-radius: 22px;
+        background: linear-gradient(135deg, #f8fafc, #eff6ff, #f5f3ff);
+        color: #64748b;
+        text-align: center;
+        margin-bottom: 18px;
+        padding: 18px;
+      }
+      .tag { border: 1px solid #e2e8f0; background: white; color: #475569; padding: 6px 10px; }
+      .evidence { background: #eff6ff; color: #1e40af; padding: 6px 10px; }
+      .role { background: #f1f5f9; color: #334155; padding: 6px 10px; }
+      ul { padding-left: 18px; color: #334155; line-height: 1.65; }
+      .eyebrow { color: #1d4ed8; font-size: 13px; font-weight: 900; text-transform: uppercase; letter-spacing: .18em; }
+      .soft { background: rgba(255,255,255,.52); }
+      footer { border-top: 1px solid var(--line); background: white; padding: 28px 0; color: #64748b; }
+      @media (max-width: 860px) {
+        .two, .three { grid-template-columns: 1fr; }
+        .wide { grid-column: auto; }
+        .navlinks { display: none; }
+        section { padding: 54px 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="bar wrap">
+        <a class="brand" href="#top"><span class="logo">RT</span><span>Raja Thippareddy</span></a>
+        <div class="navlinks">
+          <a href="#about">About</a><a href="#projects">Projects</a><a href="#labs">Labs</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap">
+          <span class="pill">Ottawa, Canada - Open Work Permit</span>
+          <h1>Raja Satya Vardhana Reddy Thippareddy</h1>
+          <p class="roleline">AI Developer · Machine Learning Developer · Python Developer · Data/AI Analyst · Software Developer · Applied AI Developer</p>
+          <p class="lead">AI/ML and Python-focused developer building practical systems across healthcare AI, emergency response, multimodal assistants, big-data prediction, NLP, computer vision, and real business automation.</p>
+          <div class="actions">
+            <a class="btn blue" href="public/Raja_Resume.pdf">Resume</a>
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="https://github.com/rajasatyavardhan" target="_blank">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/t-raja-satya-vardhan-reddy-05b1b8191" target="_blank">LinkedIn</a>
+            <a class="btn" href="#contact">Contact</a>
+          </div>
+          <p><strong>Proof over buzzwords.</strong> Built for real problems, not just clean notebooks. Problem first, proof second, buzzwords last.</p>
+        </div>
+      </section>
+
+      <section id="about" class="soft">
+        <div class="wrap grid two">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>My story, kept useful.</h2>
+          </div>
+          <div class="card">
+            <p>My background starts in Information Technology, where I built the foundation for software, databases, systems, and problem solving. I then moved deeper into connected systems through IoT with Machine Learning, and continued into Artificial Intelligence with Machine Learning to focus on practical AI development.</p>
+            <p>Today, I build projects that connect models with real workflows: healthcare simulations, multimodal assistants, big-data prediction, NLP, computer vision, and client-facing business automation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="wrap">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Built for real problems, not just clean notebooks.</h2>
+          <div class="grid two">
+            <article class="card wide"><div class="placeholder">Screenshot placeholder: MERLIN dashboard, route map, or result figure</div><h3>MERLIN</h3><p><strong>Healthcare AI / Emergency Response Simulation</strong></p><span class="status">In progress / advanced prototype</span><div class="why"><strong>Why it matters:</strong> Emergency response in rural and remote areas needs faster, safer, and more informed dispatch decisions.</div><p>MERLIN is a healthcare AI simulation project for emergency dispatch, severity prediction, routing, and resource decision support. It explores how rural and remote emergency response can be improved using simulation, ML-style logic, optimization, and safety rules.</p><p class="meta"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">NumPy</span><span class="tag">PuLP</span><span class="tag">Simulation</span><span class="tag">Optimization</span></p><ul><li>Built around rural/remote emergency response challenges in Canada.</li><li>Includes severity modeling, travel-time prediction, dispatch logic, safety validation, and result visualizations.</li><li>Presented responsibly as a simulation and research-support tool, not a live clinical system.</li></ul><p class="meta"><span class="evidence">GitHub repo</span><span class="evidence">Python modules</span><span class="evidence">Simulation results</span><span class="role">AI Developer</span><span class="role">Python Developer</span></p><a class="btn primary" href="https://github.com/rajasatyavardhan/merlin-dispatch" target="_blank">GitHub</a></article>
+            <article class="card"><div class="placeholder">Screenshot placeholder: AR glasses demo frame or architecture flow</div><h3>AR Glasses AI Assistant</h3><p><strong>Multimodal AI / Augmented Reality</strong></p><span class="status">Advanced prototype / capstone project</span><div class="why"><strong>Why it matters:</strong> Hands-free AI can help users understand the world through voice, vision, and contextual responses.</div><p>Designed an AI assistant concept for Brilliant Labs Frame AR glasses using voice input, image understanding, and LLM-generated responses.</p><p class="meta"><span class="tag">Python</span><span class="tag">Flutter</span><span class="tag">Whisper</span><span class="tag">OpenAI Vision</span><span class="tag">ChatGPT</span></p><ul><li>Combines speech, vision, and LLM workflows.</li><li>Focused on real-time user interaction.</li><li>Includes capstone report, presentation, and demo video assets.</li></ul></article>
+            <article class="card"><div class="placeholder">Screenshot placeholder: Kibana dashboard or architecture screenshot</div><h3>Predicting Flight Delays at Scale</h3><p><strong>Big Data ML / Cloud Analytics</strong></p><span class="status">Completed academic project</span><div class="why"><strong>Why it matters:</strong> Flight delays affect passengers, airlines, airports, and operations.</div><p>Built a large-scale flight delay prediction pipeline using more than 60 million U.S. flight records with PySpark, ML, Elasticsearch, and Kibana dashboards.</p><p class="meta"><span class="tag">PySpark</span><span class="tag">Random Forest</span><span class="tag">GCP</span><span class="tag">Elasticsearch</span><span class="tag">Kibana</span></p><ul><li>Processed 60M+ records.</li><li>Reported academic metrics: accuracy around 99.27%, F1 around 99.28%, ROC-AUC around 99.79%.</li><li>Created dashboards and reports for business decision-making.</li></ul></article>
+            <article class="card"><div class="placeholder">Screenshot placeholder: confusion matrix or model comparison chart</div><h3>Yelp Sentiment Analysis</h3><p><strong>NLP / Deep Learning</strong></p><span class="status">Completed academic project</span><p>Compared LSTM and DistilBERT models for classifying Yelp reviews into positive, neutral, and negative sentiment.</p><p class="meta"><span class="tag">TensorFlow</span><span class="tag">PyTorch</span><span class="tag">Hugging Face</span><span class="tag">DistilBERT</span><span class="tag">LSTM</span></p><ul><li>Benchmarked LSTM against DistilBERT.</li><li>DistilBERT achieved approximately 73.4% accuracy and 73.6% F1.</li><li>Includes reports, classification outputs, and slides.</li></ul></article>
+            <article class="card"><div class="placeholder">Screenshot placeholder: face recognition or blink detection output</div><h3>Smart Attendance</h3><p><strong>Computer Vision / Biometrics</strong></p><span class="status">Completed prototype</span><p>Built a computer vision attendance prototype combining face recognition with blink-based liveness detection.</p><p class="meta"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">DeepFace</span><span class="tag">MediaPipe</span><span class="tag">dlib</span></p><ul><li>Combines identity recognition and anti-spoofing logic.</li><li>Uses eye aspect ratio for blink detection.</li><li>Demonstrates applied CV for attendance workflows.</li></ul></article>
+            <article class="card"><div class="placeholder">Screenshot placeholder: Dansvilla homepage, mobile view, or form flow</div><h3>The Dansvilla Studio</h3><p><strong>Real Client Website / Business Automation / Lead Generation</strong></p><span class="status">Live solo-built project</span><p>Solo-built a live website and lead workflow for an Ottawa dance studio in about 15 focused hours across 15 days.</p><p class="meta"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Vercel</span><span class="tag">WhatsApp</span><span class="tag">SEO basics</span></p><ul><li>Built independently from business requirements and feedback.</li><li>Created schedule, pricing, registration, rental, reviews, gallery, and contact sections.</li><li>Form submits enquiry and continues into WhatsApp.</li></ul><a class="btn primary" href="https://www.thedansvillastudio.com/" target="_blank">Live Site</a> <a class="btn" href="https://github.com/rajasatyavardhan/thedansvillastudio" target="_blank">GitHub</a></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="labs" class="soft"><div class="wrap"><p class="eyebrow">AI/ML Research & Labs</p><h2>Supporting proof and academic depth.</h2><div class="grid two">
+        <article class="card"><h3>Synthetic Chest X-ray Augmentation with GANs</h3><p>Medical AI Research / Generative AI. Trained a GAN-based pipeline to generate synthetic chest X-ray images for imbalanced medical datasets while clearly requiring clinical validation.</p><p class="meta"><span class="tag">PyTorch</span><span class="tag">DCGAN/cDCGAN</span><span class="tag">SSIM</span><span class="tag">PSNR</span><span class="tag">FID-lite</span></p></article>
+        <article class="card"><h3>Telugu-English Hate Speech Detection</h3><p>NLP / Social Media Safety. Developed an NLP project for detecting hate or abusive speech in Telugu-English code-mixed social media text.</p><p class="meta"><span class="tag">NLP</span><span class="tag">n-grams</span><span class="tag">ML classifiers</span><span class="tag">CSV dataset</span></p></article>
+        <article class="card"><h3>Food Delivery Offer Prediction</h3><p>Data Analytics / Classification. Built a classification workflow to predict promotional offer categories for food delivery items.</p><p class="meta"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">scikit-learn</span><span class="tag">SVM</span></p></article>
+        <article class="card"><h3>Wine Quality / Cultivar ML Lab</h3><p>ML Lab / Classification. Built machine learning models to classify or evaluate wine quality using physicochemical features.</p><p class="meta"><span class="tag">TensorFlow/Keras</span><span class="tag">Random Forest</span><span class="tag">GridSearchCV</span></p></article>
+      </div></div></section>
+
+      <section><div class="wrap grid two"><div><p class="eyebrow">Prototype</p><h2>FrontMate AI</h2><p>Restaurant AI Call Assistant - prototype / in progress. Designed to capture customer details, understand order items, suggest menu options, confirm pickup orders, and hand off to staff when needed.</p></div><div class="card"><span class="status">Prototype / in progress</span><p class="meta"><span class="tag">AI assistant design</span><span class="tag">Lovable</span><span class="tag">Workflow automation</span><span class="tag">Restaurant operations</span></p><ul><li>Based on real restaurant missed-call/order-capture problems.</li><li>Demonstrates conversational AI product thinking.</li><li>Clearly not presented as production finished.</li></ul></div></div></section>
+
+      <section id="skills" class="soft"><div class="wrap"><p class="eyebrow">Skills Matrix</p><h2>Tools I use to build useful systems.</h2><div class="grid three">
+        <div class="card"><h3>Programming</h3><p>Python, JavaScript, TypeScript, SQL, Git/GitHub</p></div>
+        <div class="card"><h3>ML / AI</h3><p>scikit-learn, TensorFlow/Keras, PyTorch, Hugging Face, NLP, Computer Vision</p></div>
+        <div class="card"><h3>Data / Cloud</h3><p>pandas, NumPy, Matplotlib, Seaborn, PySpark, GCP, Elasticsearch, Kibana</p></div>
+      </div></div></section>
+
+      <section><div class="wrap grid two"><div class="card"><p class="eyebrow">Experience</p><h2>Project experience with shipped work.</h2><p>Solo-built The Dansvilla Studio website and lead workflow. Built academic and portfolio systems across NLP, computer vision, healthcare simulation, big-data prediction, and generative AI research.</p></div><div class="card"><p class="eyebrow">Education</p><h2>Education</h2><p>B.Tech Information Technology - VIT</p><p>Graduate Certificate in IoT with Machine Learning - Sheridan College</p><p>Graduate Certificate in Artificial Intelligence with Machine Learning - Humber Polytechnic</p></div></div></section>
+
+      <section id="contact" class="soft"><div class="wrap"><p class="eyebrow">Career Fair Pitch</p><h2>The 30-second version.</h2><div class="card"><p class="lead">I’m Raja, an AI/ML and Python-focused developer in Ottawa. My strongest work includes MERLIN, a healthcare emergency dispatch simulation; a multimodal AR glasses AI assistant; and big-data flight delay prediction using Spark and cloud analytics. I also build practical business systems, including a live website and lead workflow for a local Ottawa dance studio.</p><div class="actions"><a class="btn blue" href="mailto:rajasatyavardhan@gmail.com">Email</a><a class="btn" href="https://github.com/rajasatyavardhan" target="_blank">GitHub</a><a class="btn" href="public/Raja_Resume.pdf">Resume</a></div></div></div></section>
+    </main>
+
+    <footer><div class="wrap">© 2026 Raja Satya Vardhana Reddy Thippareddy. A little AI, a little systems thinking, and a lot of debugging.</div></footer>
+  </body>
+</html>
