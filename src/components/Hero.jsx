@@ -25,13 +25,13 @@ export default function Hero() {
           </p>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-650 sm:text-xl">
-            AI/ML and Python-focused developer building practical systems across healthcare AI, emergency response, multimodal assistants, big-data prediction, NLP, computer vision, and real business automation.
+            AI/ML and Python-focused developer building practical systems across LLM evaluation, healthcare simulation, multimodal assistants, big-data prediction, NLP, computer vision, IoT, and real business automation.
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
             <span className="quote-chip">Proof over buzzwords.</span>
-            <span className="quote-chip">Built for real problems, not just clean notebooks.</span>
-            <span className="quote-chip">Problem first, proof second, buzzwords last.</span>
+            <span className="quote-chip">Production thinking, portfolio proof.</span>
+            <span className="quote-chip">AI systems, not just notebooks.</span>
           </div>
 
           <div className="mt-9 flex flex-wrap gap-3">
@@ -57,18 +57,18 @@ export default function Hero() {
           <div className="rounded-[1.5rem] border border-slate-100 bg-gradient-to-br from-slate-950 via-blue-950 to-violet-950 p-6 text-white">
             <div className="mb-8 flex items-center justify-between">
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium">
-                <Sparkles size={14} /> Career fair signal
+                <Sparkles size={14} /> Professional AI profile
               </span>
               <span className="text-xs text-blue-100">Vercel-ready</span>
             </div>
-            <p className="text-sm uppercase tracking-[0.25em] text-blue-200">I build</p>
+            <p className="text-sm uppercase tracking-[0.25em] text-blue-200">Current signal</p>
             <div className="mt-4 grid gap-3">
               {[
+                "LLM evaluation and chatbot quality analysis",
                 "Healthcare AI simulations",
                 "Multimodal assistant workflows",
                 "Big-data prediction pipelines",
-                "NLP and computer vision prototypes",
-                "Business websites that capture leads",
+                "Computer vision, NLP, IoT, and web automation",
               ].map((item) => (
                 <div key={item} className="rounded-2xl border border-white/10 bg-white/10 p-4 text-sm text-blue-50">
                   {item}

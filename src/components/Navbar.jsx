@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const links = [
   ["Projects", "projects"],
-  ["Skills", "skills"],
-  ["Pitch", "pitch"],
+  ["Profile", "profile"],
+  ["Snapshot", "snapshot"],
   ["Contact", "contact"],
 ];
 

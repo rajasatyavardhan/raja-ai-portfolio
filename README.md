@@ -1,8 +1,8 @@
 # Raja AI/ML Developer Portfolio
 
-Career-fair-ready portfolio for Raja Satya Vardhana Reddy Thippareddy, built with React, Vite, Tailwind CSS, and Framer Motion.
+Professional portfolio for Raja Satya Vardhana Reddy Thippareddy, an Ottawa-based AI/ML and Python-focused developer.
 
-The site is designed as a compact project portal: recruiters can scan the hero, open project worlds, inspect proof assets, review skills/experience/education, and download the resume quickly.
+The site presents Raja's profile, work experience, resume, and project evidence across LLM evaluation, healthcare AI simulation, multimodal assistants, big-data ML, NLP, computer vision, IoT, and real business automation.
 
 ## Run Locally
 
@@ -38,17 +38,6 @@ The production output is generated in `dist/`.
 
 The included `vercel.json` adds a single-page-app rewrite to `index.html`.
 
-## Deploy To GitHub Pages
-
-This repo includes `.github/workflows/deploy-pages.yml`.
-
-After pushing to `main`:
-
-1. Open the GitHub repository.
-2. Go to **Settings > Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions**.
-4. Push to `main` or run the workflow manually.
-
 ## Main Files
 
 - `src/App.jsx` - high-level page order.
@@ -56,7 +45,7 @@ After pushing to `main`:
 - `src/components/ProjectExplorer.jsx` - project portal, filters, project worlds, proof modal.
 - `src/data/projects.js` - project content, tech, evidence, roles, links, visual type, proof images.
 - `src/components/ProfileTabs.jsx` - skills, experience, education.
-- `src/components/CareerPitch.jsx` - career fair pitch.
+- `src/components/CareerPitch.jsx` - professional profile snapshot.
 - `src/components/Contact.jsx` - contact links.
 - `src/styles.css` - project portal visuals, animations, and shared styling.
 
@@ -66,7 +55,7 @@ After pushing to `main`:
 - `public/proof/` - proof images used in project modals.
 - `public/proof/README.md` - source notes for copied proof assets.
 
-## Content Rules
+## Content Notes
 
 - Do not overclaim unfinished projects.
 - Keep MERLIN framed as simulation/research support, not a live clinical system.

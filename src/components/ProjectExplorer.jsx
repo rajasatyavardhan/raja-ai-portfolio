@@ -60,40 +60,79 @@ function ProjectWorld({ type = "default", compact = false }) {
       <div className="world-grid" />
       <div className="world-orbit world-orbit-one" />
       <div className="world-orbit world-orbit-two" />
+      <div className="world-depth world-depth-one" />
+      <div className="world-depth world-depth-two" />
       <Icon className="world-icon" size={compact ? 38 : 74} />
       {type === "merlin" && (
         <>
+          <div className="world-map-node node-patient">911</div>
+          <div className="world-map-node node-hospital">H</div>
+          <div className="world-map-node node-base">A</div>
           <div className="world-route" />
           <div className="world-ambulance"><Ambulance size={compact ? 24 : 34} /></div>
+          <div className="world-pulse pulse-critical" />
         </>
       )}
-      {type === "flight" && <Plane className="world-plane" size={compact ? 30 : 48} />}
+      {type === "flight" && (
+        <>
+          <div className="world-radar" />
+          <div className="world-runway" />
+          <Plane className="world-plane" size={compact ? 30 : 48} />
+          <span className="world-mini-stat stat-one">60M+ rows</span>
+          <span className="world-mini-stat stat-two">delay model</span>
+        </>
+      )}
       {type === "ar" && (
         <>
+          <div className="world-camera-frame" />
           <div className="world-hud-line world-hud-one" />
           <div className="world-hud-line world-hud-two" />
           <div className="world-hud-dot" />
+          <span className="world-hud-label label-voice">voice</span>
+          <span className="world-hud-label label-vision">vision</span>
+          <span className="world-hud-label label-llm">LLM</span>
         </>
       )}
       {type === "nlp" && (
         <>
+          <div className="world-text-stream stream-one">review text &gt; embeddings &gt; classifier</div>
+          <div className="world-text-stream stream-two">LSTM baseline vs DistilBERT</div>
           <span className="world-token token-one">positive</span>
           <span className="world-token token-two">neutral</span>
           <span className="world-token token-three">negative</span>
         </>
       )}
-      {type === "vision" && <div className="world-scan-line" />}
+      {type === "vision" && (
+        <>
+          <div className="world-face-box" />
+          <div className="world-eye left" />
+          <div className="world-eye right" />
+          <div className="world-scan-line" />
+        </>
+      )}
       {type === "dansvilla" && (
         <>
           <div className="world-spotlight left" />
           <div className="world-spotlight right" />
+          <div className="world-stage" />
+          <div className="world-lead-flow">form &gt; WhatsApp &gt; lead</div>
         </>
       )}
-      {type === "smartdoor" && <div className="world-door"><span /></div>}
+      {type === "smartdoor" && (
+        <>
+          <div className="world-sensor sensor-left" />
+          <div className="world-sensor sensor-right" />
+          <div className="world-sensor-beam" />
+          <div className="world-door"><span /></div>
+          <div className="world-counter">visitors: +1</div>
+        </>
+      )}
       {type === "frontmate" && (
         <>
           <div className="world-call-wave wave-one" />
           <div className="world-call-wave wave-two" />
+          <div className="world-order-ticket">pickup order<br />confirm &gt; handoff</div>
+          <div className="world-phone-pill">AI call active</div>
         </>
       )}
     </div>
@@ -128,7 +167,7 @@ function PortalCard({ project, active, launching, onOpen, index }) {
       {project.subtitle && <p className="mt-1 text-sm font-medium text-slate-500">{project.subtitle}</p>}
       <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">{project.why || project.description}</p>
       <div className="mt-4 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-blue-700">
-        Open project world <ChevronRight size={14} />
+        Enter project world <ChevronRight size={14} />
       </div>
     </motion.button>
   );
@@ -208,6 +247,11 @@ function ProjectModal({ project, onClose }) {
                 <span className="rounded-full bg-slate-950 px-3 py-1 text-xs font-semibold text-white">{project.status}</span>
                 <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-800">{project.category}</span>
               </div>
+              {project.why && (
+                <p className="mt-5 rounded-2xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-blue-950">
+                  <span className="font-semibold">Problem: </span>{project.why}
+                </p>
+              )}
               <p className="mt-5 text-sm leading-7 text-slate-700">{project.description}</p>
 
               <div className="mt-6 grid gap-3">
@@ -279,12 +323,12 @@ export default function ProjectExplorer() {
   }
 
   return (
-    <Section id="projects" eyebrow="Project Portal" title="Open the systems. See the proof.">
+    <Section id="projects" eyebrow="Project Worlds" title="Open the systems. See the proof.">
       <div className="portal-shell">
         <div className="portal-hero">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">AI/ML developer command center</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Built for real problems, not just clean notebooks.</h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">AI/ML profile command center</p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Each project opens into a proof-first system view.</h2>
           </div>
           <div className="portal-python-panel">
             <span>Python core</span>
@@ -309,7 +353,7 @@ export default function ProjectExplorer() {
         </div>
       </div>
 
-      <div className="mt-7 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {visible.map((project, index) => (
           <PortalCard
             key={project.portalId}

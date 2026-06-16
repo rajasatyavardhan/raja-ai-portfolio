@@ -11,9 +11,9 @@ export default function Contact() {
       <div className="grid gap-6 lg:grid-cols-[1fr_0.8fr]">
         <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
           <p className="text-lg leading-8 text-slate-700">
-            I am looking for AI Developer, Machine Learning Developer, Python Developer, Data/AI Analyst, Software Developer, and Applied AI Developer opportunities.
+            I am open to AI Developer, Machine Learning Developer, Python Developer, Data/AI Analyst, Software Developer, Applied AI Developer, and LLM Evaluation roles.
           </p>
-          <p className="mt-4 text-slate-600">Problem first, proof second, buzzwords last.</p>
+          <p className="mt-4 text-slate-600">Based in Ottawa with an Open Work Permit and available for full-time roles across Canada.</p>
         </div>
         <div className="grid gap-3">
           <a className="contact-link" href="mailto:rajasatyavardhan@gmail.com">

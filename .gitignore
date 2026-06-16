@@ -9,3 +9,9 @@ output/
 .DS_Store
 .vite/
 thedansvillastudio/
+
+# Local deployment/export helpers generated during manual upload troubleshooting
+Raja_*.zip
+Raja_*/
+Raja_*PORTFOLIO*.html
+OPEN_*PORTFOLIO*.bat

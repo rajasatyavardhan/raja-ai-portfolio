@@ -14,14 +14,24 @@ const skillGroups = [
 
 const experience = [
   [
+    "AI Annotator / LLM Evaluator - Outlier AI",
+    "Freelance contract - LLM evaluation and response-quality analysis - Nov 2025 to Present",
+    "Evaluated model outputs for reasoning quality, factual accuracy, hallucinations, safety, tone, clarity, and instruction-following using structured rubrics across text and multimodal tasks.",
+  ],
+  [
     "Solo Builder - The Dansvilla Studio Website",
     "Live client-style project - Ottawa - Built in ~15 focused hours across 15 days",
     "Designed and shipped a live business website and lead workflow with schedules, pricing, registration logic, studio rentals, social proof, contact paths, and WhatsApp handoff.",
   ],
   [
-    "AI Annotator / LLM Evaluator - Outlier AI",
-    "Freelance contract - LLM evaluation and response-quality analysis",
-    "Evaluated AI outputs for reasoning quality, factual accuracy, hallucinations, tone, safety, and instruction-following using structured rubrics.",
+    "Crew Trainer - Tim Hortons",
+    "Ottawa, Ontario - Jan 2024 to Aug 2025",
+    "Trained team members, maintained quality and service standards, handled high-volume customer workflows, and built reliable communication, prioritization, and pressure-management habits.",
+  ],
+  [
+    "Customer Operations - Tahini's and Biryaniwalla Ottawa",
+    "Food service and front-of-house operations - Nov 2025 to Present",
+    "Handled order accuracy, customer service, packaging, prep coordination, sanitation standards, and fast-paced service workflows while balancing technical portfolio work.",
   ],
   [
     "AI/ML Project Developer - Academic + Portfolio Systems",
@@ -45,7 +55,7 @@ export default function ProfileTabs() {
   ];
 
   return (
-    <Section id="skills" eyebrow="Profile Snapshot" title="Skills, experience, and education without extra scrolling.">
+    <Section id="profile" eyebrow="Professional Profile" title="Skills, experience, and education in one focused view.">
       <div className="rounded-[2rem] border border-slate-200 bg-white p-4 shadow-card">
         <div className="mb-5 flex flex-wrap gap-2 rounded-2xl bg-slate-100 p-1">
           {tabs.map(([id, label]) => (
