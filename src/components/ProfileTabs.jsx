@@ -4,12 +4,12 @@ import { useState } from "react";
 import Section from "./Section.jsx";
 
 const skillGroups = [
-  ["Programming", ["Python", "JavaScript", "TypeScript", "SQL", "Git/GitHub"]],
-  ["ML / AI", ["scikit-learn", "TensorFlow/Keras", "PyTorch", "Hugging Face", "NLP", "Computer Vision"]],
-  ["Data / Analytics", ["pandas", "NumPy", "Matplotlib", "Seaborn", "Dashboards", "Model evaluation"]],
-  ["Big Data / Cloud", ["PySpark", "HDFS", "GCP VM", "Elasticsearch", "Kibana", "Logstash"]],
-  ["Web / Automation", ["React", "Vite", "Tailwind CSS", "Vercel", "Forms", "WhatsApp workflows", "SEO basics"]],
-  ["Workflow", ["Colab", "Kaggle", "Jupyter", "VS Code", "Reports", "Presentations"]],
+  ["Programming", ["Python", "SQL", "JavaScript", "HTML/CSS", "Git/GitHub"]],
+  ["ML / AI", ["scikit-learn", "TensorFlow/Keras", "PyTorch basics", "NLP", "Computer Vision", "LLM evaluation"]],
+  ["Data / Analytics", ["pandas", "NumPy", "Matplotlib", "Seaborn", "Model evaluation", "Dashboards"]],
+  ["Applied Systems", ["PySpark", "ESP32", "Blynk IoT", "OpenCV", "Ollama/local LLMs", "API workflows"]],
+  ["Web / Business Automation", ["Responsive websites", "Forms", "WhatsApp handoff", "Vercel deployment", "SEO basics"]],
+  ["Workflow", ["Jupyter", "Colab", "Kaggle", "VS Code", "Reports", "Presentations"]],
 ];
 
 const experience = [
@@ -29,9 +29,9 @@ const experience = [
     "Trained team members, maintained quality and service standards, handled high-volume customer workflows, and built reliable communication, prioritization, and pressure-management habits.",
   ],
   [
-    "Customer Operations - Tahini's and Biryaniwalla Ottawa",
-    "Food service and front-of-house operations - Nov 2025 to Present",
-    "Handled order accuracy, customer service, packaging, prep coordination, sanitation standards, and fast-paced service workflows while balancing technical portfolio work.",
+    "Customer Service Representative / Operations Support - Biryaniwalla Ottawa",
+    "Nepean, Ontario - Jan 2026 to Present",
+    "Support daily restaurant operations including order coordination, customer communication, quality checks, and fast service while using the workflow experience to shape practical automation ideas.",
   ],
   [
     "AI/ML Project Developer - Academic + Portfolio Systems",

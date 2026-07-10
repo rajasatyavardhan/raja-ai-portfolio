@@ -2,12 +2,12 @@ import React from "react";
 import Section from "./Section.jsx";
 
 const skills = [
-  ["Programming", ["Python", "JavaScript", "TypeScript", "SQL", "Git/GitHub"]],
-  ["ML / AI", ["scikit-learn", "TensorFlow/Keras", "PyTorch", "Hugging Face", "NLP", "Computer Vision"]],
-  ["Data / Analytics", ["pandas", "NumPy", "Matplotlib", "Seaborn", "Dashboards", "Model evaluation"]],
-  ["Big Data / Cloud", ["PySpark", "HDFS", "GCP VM", "Elasticsearch", "Kibana", "Logstash"]],
-  ["Web / Automation", ["React", "Vite", "Tailwind CSS", "Vercel", "Forms", "WhatsApp workflows", "SEO basics"]],
-  ["Workflow", ["Colab", "Kaggle", "Jupyter", "VS Code", "Reports", "Presentations"]],
+  ["Programming", ["Python", "SQL", "JavaScript", "HTML/CSS", "Git/GitHub"]],
+  ["ML / AI", ["scikit-learn", "TensorFlow/Keras", "PyTorch basics", "NLP", "Computer Vision", "LLM evaluation"]],
+  ["Data / Analytics", ["pandas", "NumPy", "Matplotlib", "Seaborn", "Model evaluation", "Dashboards"]],
+  ["Applied Systems", ["PySpark", "ESP32", "Blynk IoT", "OpenCV", "Ollama/local LLMs", "API workflows"]],
+  ["Web / Business Automation", ["Responsive websites", "Forms", "WhatsApp handoff", "Vercel deployment", "SEO basics"]],
+  ["Workflow", ["Jupyter", "Colab", "Kaggle", "VS Code", "Reports", "Presentations"]],
 ];
 
 export default function SkillsMatrix() {

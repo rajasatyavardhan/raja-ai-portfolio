@@ -45,7 +45,7 @@ The included `vercel.json` adds a single-page-app rewrite to `index.html`.
 - `src/components/ProjectExplorer.jsx` - project portal, filters, project worlds, proof modal.
 - `src/data/projects.js` - project content, tech, evidence, roles, links, visual type, proof images.
 - `src/components/ProfileTabs.jsx` - skills, experience, education.
-- `src/components/CareerPitch.jsx` - professional profile snapshot.
+- `src/components/ProfileTabs.jsx` - compact skills, experience, and education profile.
 - `src/components/Contact.jsx` - contact links.
 - `src/styles.css` - project portal visuals, animations, and shared styling.
 

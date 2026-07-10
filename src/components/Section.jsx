@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Section({ id, eyebrow, title, children, className = "" }) {
   return (
-    <section id={id} className={`scroll-mt-24 px-5 py-16 sm:px-8 lg:px-12 ${className}`}>
+    <section id={id} className={`scroll-mt-24 px-5 py-12 sm:px-8 lg:px-12 ${className}`}>
       <div className="mx-auto max-w-7xl">
         {(eyebrow || title) && (
           <div className="mb-9 max-w-3xl">

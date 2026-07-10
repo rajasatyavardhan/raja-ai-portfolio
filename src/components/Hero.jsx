@@ -5,7 +5,7 @@ const resumeUrl = `${import.meta.env.BASE_URL}Raja_Resume.pdf`;
 
 export default function Hero() {
   return (
-    <section id="top" className="relative isolate px-5 pb-16 pt-32 sm:px-8 lg:px-12">
+    <section id="top" className="relative isolate px-5 pb-12 pt-28 sm:px-8 lg:px-12">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_20%_20%,rgba(99,102,241,0.18),transparent_28%),radial-gradient(circle_at_80%_10%,rgba(14,165,233,0.16),transparent_30%),linear-gradient(180deg,#ffffff,#f8fafc)]" />
       <div className="absolute left-1/2 top-24 -z-10 h-48 w-48 -translate-x-1/2 rounded-full bg-blue-200/30 blur-3xl" />
 
@@ -25,7 +25,7 @@ export default function Hero() {
           </p>
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-650 sm:text-xl">
-            AI/ML and Python-focused developer building practical systems across LLM evaluation, healthcare simulation, multimodal assistants, big-data prediction, NLP, computer vision, IoT, and real business automation.
+            I build practical AI, Python, data, computer vision, IoT, and business automation projects with proof recruiters can inspect.
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
@@ -59,7 +59,7 @@ export default function Hero() {
               <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium">
                 <Sparkles size={14} /> Professional AI profile
               </span>
-              <span className="text-xs text-blue-100">Vercel-ready</span>
+              <span className="text-xs text-blue-100">Portfolio profile</span>
             </div>
             <p className="text-sm uppercase tracking-[0.25em] text-blue-200">Current signal</p>
             <div className="mt-4 grid gap-3">
@@ -68,7 +68,7 @@ export default function Hero() {
                 "Healthcare AI simulations",
                 "Multimodal assistant workflows",
                 "Big-data prediction pipelines",
-                "Computer vision, NLP, IoT, and web automation",
+                "Sign language, smart door, NLP, CV, and web automation",
               ].map((item) => (
                 <div key={item} className="rounded-2xl border border-white/10 bg-white/10 p-4 text-sm text-blue-50">
                   {item}

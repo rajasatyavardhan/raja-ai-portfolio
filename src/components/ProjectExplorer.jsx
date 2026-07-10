@@ -7,6 +7,7 @@ import {
   DoorOpen,
   ExternalLink,
   Glasses,
+  Hand,
   MessageSquareText,
   PhoneCall,
   Plane,
@@ -23,6 +24,7 @@ const visualIcon = {
   ar: Glasses,
   nlp: MessageSquareText,
   vision: ScanFace,
+  sign: Hand,
   dansvilla: Sparkles,
   smartdoor: DoorOpen,
   frontmate: PhoneCall,
@@ -39,7 +41,7 @@ function normalizeProject(project, tier, index) {
   let visualType = project.visualType || "default";
 
   if (lower.includes("smart door") || lower.includes("visitor monitoring")) visualType = "smartdoor";
-  if (lower.includes("sign language")) visualType = "vision";
+  if (lower.includes("sign language")) visualType = "sign";
   if (lower.includes("hate speech") || lower.includes("sentiment")) visualType = "nlp";
   if (lower.includes("chest")) visualType = "vision";
   if (lower.includes("food") || lower.includes("wine")) visualType = "default";
@@ -108,6 +110,21 @@ function ProjectWorld({ type = "default", compact = false }) {
           <div className="world-eye left" />
           <div className="world-eye right" />
           <div className="world-scan-line" />
+        </>
+      )}
+      {type === "sign" && (
+        <>
+          <div className="world-gesture-panel">
+            <span className="gesture-finger finger-one" />
+            <span className="gesture-finger finger-two" />
+            <span className="gesture-finger finger-three" />
+            <span className="gesture-finger finger-four" />
+            <span className="gesture-palm" />
+          </div>
+          <div className="gesture-trail trail-one">frame 01</div>
+          <div className="gesture-trail trail-two">CNN</div>
+          <div className="gesture-trail trail-three">LSTM</div>
+          <div className="gesture-caption">gesture sequence - meaning</div>
         </>
       )}
       {type === "dansvilla" && (
@@ -306,12 +323,12 @@ export default function ProjectExplorer() {
   const projects = useMemo(() => {
     return [
       ...featuredProjects.map((project, index) => normalizeProject(project, "Featured", index)),
-      ...labs.map((project, index) => normalizeProject(project, "Research", index)),
+      ...labs.map((project, index) => normalizeProject(project, "Supporting", index)),
       normalizeProject(prototype, "Prototype", 0),
     ];
   }, []);
 
-  const filters = ["Featured", "Research", "Prototype", "All"];
+  const filters = ["Featured", "Supporting", "Prototype", "All"];
   const visible = filter === "All" ? projects : projects.filter((project) => project.tier === filter);
 
   function openProject(project) {
@@ -323,12 +340,12 @@ export default function ProjectExplorer() {
   }
 
   return (
-    <Section id="projects" eyebrow="Project Worlds" title="Open the systems. See the proof.">
+    <Section id="projects" eyebrow="Project Worlds" title="Main projects first. Supporting proof one click away.">
       <div className="portal-shell">
         <div className="portal-hero">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">AI/ML profile command center</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Each project opens into a proof-first system view.</h2>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Click a project to open its world.</h2>
           </div>
           <div className="portal-python-panel">
             <span>Python core</span>
