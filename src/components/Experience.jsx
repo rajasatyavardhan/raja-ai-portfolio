@@ -9,7 +9,7 @@ const items = [
       "Designed and shipped a live business website and lead workflow with schedules, pricing, registration logic, studio rentals, social proof, contact paths, and WhatsApp handoff.",
   },
   {
-    title: "Open Work Permit · Ottawa, Canada",
+    title: "Open Work Permit · Hamilton, Canada",
     meta: "Available for AI/ML, Python, data, and software roles",
     body:
       "Targeting roles where I can build practical AI systems, production-minded Python workflows, analytics tools, automation, and user-facing software.",

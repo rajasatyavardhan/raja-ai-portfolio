@@ -1,6 +1,6 @@
 # Raja AI/ML Developer Portfolio
 
-Professional portfolio for Raja Satya Vardhana Reddy Thippareddy, an Ottawa-based AI/ML and Python-focused developer.
+Professional portfolio for Raja Satya Vardhana Reddy Thippareddy, a Hamilton-based AI/ML and Python-focused developer.
 
 The site presents Raja's profile, work experience, resume, and project evidence across LLM evaluation, healthcare AI simulation, multimodal assistants, big-data ML, NLP, computer vision, IoT, and real business automation.
 

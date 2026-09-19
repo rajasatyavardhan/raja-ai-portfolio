@@ -1,93 +1,797 @@
-%PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%PDF-1.3
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Count 2
+/Kids [ 3 0 R 8 0 R ]
+/Type /Pages
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Contents 4 0 R
+/MediaBox [ 0 0 612 792 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
 >>
 endobj
 4 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 12545
 >>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+1 0 0 1 42 739.26 cm
+q
+0.043137 0.145098 0.270588 rg
+BT
+1 0 0 1 0 1.8 Tm
+/F2 14.7 Tf
+16.5 TL
+120.6309 0 Td
+(Raja Satya Vardhana Reddy Thippareddy) Tj
+T*
+-120.6309 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 724.86 cm
+q
+0.278431 0.333333 0.411765 rg
+BT
+1 0 0 1 0 1.05 Tm
+/F1 7.35 Tf
+8.4 TL
+111.061225 0 Td
+(Hamilton\054 ON\054 Canada \174 Open Work Permit \174 \0531 647\055482\0554254 \174 rajasatyavardhan\100gmail\056com) Tj
+T*
+-113.9167 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 710.46 cm
+q
+0.278431 0.333333 0.411765 rg
+BT
+1 0 0 1 0 1.05 Tm
+/F1 7.35 Tf
+8.4 TL
+96.1701 0 Td
+(LinkedIn\072 linkedin\056com\057in\057t\055raja\055satya\055vardhan\055reddy\05505b1b8191 \174 GitHub\072 github\056com\057rajasatyavardhan) Tj
+T*
+-96.1701 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 694.46 cm
+q
+0.043137 0.145098 0.270588 rg
+BT
+1 0 0 1 0 1.2 Tm
+/F2 8.8 Tf
+10 TL
+145.8864 0 Td
+(AI\057ML Developer \174 Applied AI Analyst \174 Python Developer) Tj
+T*
+-145.8864 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 691.16 cm
+Q
+q
+1 0 0 1 42 676.36 cm
+q
+0.898039 0.917647 0.94902 RG
+0.35 w
+n
+-0.8 -0.8 529.6 12.6 re
+S
+Q
+q
+0.043137 0.145098 0.270588 rg
+BT
+1 0 0 1 0 1.15 Tm
+/F2 9.85 Tf
+11 TL
+(AI\057ML Developer \174 Applied AI Analyst \174 Python Developer) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 642.61 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 19.8 Tm
+/F1 7.95 Tf
+9.25 TL
+(Early\055career AI\057ML and Python\055focused developer with hands\055on work across LLM evaluation\054 healthcare AI simulation\054 multimodal assistants\054 NLP\054) Tj
+T*
+-0.100217 Tw
+(computer vision\054 big\055data ML\054 IoT systems\054 and real business automation\056 Strongest in building practical prototypes\054 evaluating AI behavior\054 debugging) Tj
+T*
+0 Tw
+(real workflows\054 and turning project evidence into clear technical outcomes\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 640.56 cm
+Q
+q
+1 0 0 1 42 625.76 cm
+q
+0.898039 0.917647 0.94902 RG
+0.35 w
+n
+-0.8 -0.8 529.6 12.6 re
+S
+Q
+q
+0.043137 0.145098 0.270588 rg
+BT
+1 0 0 1 0 1.15 Tm
+/F2 9.85 Tf
+11 TL
+(Core Skills) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 610.51 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+9.25 TL
+/F2 7.95 Tf
+0.121569 0.160784 0.215686 rg
+(Languages\072) Tj
+/F1 7.95 Tf
+( Python\054 SQL\054 JavaScript\054 TypeScript\054 HTML\054 CSS) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 586.01 cm
+q
+BT
+1 0 0 1 0 10.55 Tm
+9.25 TL
+/F2 7.95 Tf
+0.121569 0.160784 0.215686 rg
+(AI\057ML\072) Tj
+/F1 7.95 Tf
+( scikit\055learn\054 PyTorch\054 TensorFlow\057Keras\054 Hugging Face Transformers\054 DistilBERT\054 LSTM\054 CNN\057RNN\054 Random Forest\054 XGBoost\054 model) Tj
+T*
+(evaluation\054 classification\054 regression\054 EDA) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 561.51 cm
+q
+BT
+1 0 0 1 0 10.55 Tm
+9.25 TL
+/F2 7.95 Tf
+0.121569 0.160784 0.215686 rg
+(LLM \046 Applied AI\072) Tj
+/F1 7.95 Tf
+( LLM output evaluation\054 hallucination detection\054 rubric scoring\054 prompt analysis\054 OpenAI APIs\054 GPT workflows\054 Whisper\054) Tj
+T*
+(Ollama\057local LLMs\054 RAG concepts\054 embeddings\054 quantization concepts) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 546.26 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+9.25 TL
+/F2 7.95 Tf
+0.121569 0.160784 0.215686 rg
+(Computer Vision\072) Tj
+/F1 7.95 Tf
+( OpenCV\054 DeepFace\054 MediaPipe\054 dlib\054 face recognition\054 blink\057liveness detection\054 transfer learning\054 image preprocessing) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 531.01 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+9.25 TL
+/F2 7.95 Tf
+0.121569 0.160784 0.215686 rg
+(Data \046 Cloud\072) Tj
+/F1 7.95 Tf
+( pandas\054 NumPy\054 Matplotlib\054 Seaborn\054 PySpark\054 GCP VM\054 Elasticsearch\057Kibana dashboards) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 515.76 cm
+q
+BT
+1 0 0 1 0 1.3 Tm
+9.25 TL
+/F2 7.95 Tf
+0.121569 0.160784 0.215686 rg
+(IoT \046 Systems\072) Tj
+/F1 7.95 Tf
+( ESP32\054 sensors\054 Blynk\054 edge AI concepts\054 REST APIs\054 Git\057GitHub\054 Vercel\054 workflow automation) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 513.71 cm
+Q
+q
+1 0 0 1 42 498.91 cm
+q
+0.898039 0.917647 0.94902 RG
+0.35 w
+n
+-0.8 -0.8 529.6 12.6 re
+S
+Q
+q
+0.043137 0.145098 0.270588 rg
+BT
+1 0 0 1 0 1.15 Tm
+/F2 9.85 Tf
+11 TL
+(Professional Experience) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 486.91 cm
+q
+0.121569 0.301961 0.470588 rg
+BT
+1 0 0 1 0 1.1 Tm
+/F2 8.7 Tf
+9.8 TL
+(AI Annotator \057 LLM Evaluator \055 Outlier AI) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 471.66 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 7.95 Tf
+9.25 TL
+(Remote\054 Canada \174 Nov 2025 \055 Present) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 456.41 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f204576616c75617465204c4c4d20726573706f6e736573206163726f7373207661726965642070726f6d707420747970657320666f72206661637475616c6974792c20696e737472756374696f6e2d666f6c6c6f77696e672c20726561736f6e696e67207175616c6974792c20746f6e652c20636c61726974792c20616e64207361666574792e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 441.16 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f204964656e746966792068616c6c7563696e6174696f6e732c206661637475616c20696e636f6e73697374656e636965732c20706f6c696379206973737565732c20616e64207765616b20726561736f6e696e67207061747465726e73207573696e672073747275637475726564206576616c756174696f6e20727562726963732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 425.91 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20436f6e76657274207175616c69746174697665206d6f64656c206265686176696f7220696e746f20636c65617220666565646261636b207468617420737570706f727473204149207175616c69747920696d70726f76656d656e7420616e642063686174626f7420706572666f726d616e636520616e616c797369732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 410.66 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20506572666f726d206d756c74696d6f64616c20616e6e6f746174696f6e207461736b7320696e636c7564696e6720617564696f207472616e736372697074696f6e2c206c6162656c696e672c20616e642073747275637475726564207175616c697479207265766965772e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 398.66 cm
+q
+BT
+1 0 0 1 0 1.1 Tm
+9.8 TL
+/F2 8.7 Tf
+0.121569 0.301961 0.470588 rg
+(Applied Software Builder \055 The Dansvilla Studio Website \046 Growth Workflow) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 383.41 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 7.95 Tf
+9.25 TL
+(Ottawa\054 Canada \174 2026) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 368.16 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20536f6c6f2d6275696c7420616e6420696d70726f7665642061206c697665207765627369746520616e6420696e717569727920776f726b666c6f7720666f7220616e204f74746177612064616e63652073747564696f20696e2061626f757420313520666f637573656420686f757273206163726f737320313520646179732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 343.66 cm
+q
+BT
+1 0 0 1 8 10.55 Tm
+-5 0 Td
+-0.107215 Tw
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20496d706c656d656e74656420726573706f6e736976652073656374696f6e7320666f7220636c61737365732c2070726963696e672c20726567697374726174696f6e2c2072656e74616c732c20726576696577732c2067616c6c6572792c20616e6420636f6e74616374207573696e672066726f6e74656e6420646576656c6f706d656e7420616e64206465706c6f796d656e74> Tj
+T*
+0 Tw
+5 0 Td
+(workflows\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 328.41 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20436f6e6e656374656420696e7175697279207375626d697373696f6e20776974682057686174734170702068616e646f666620746f20696d70726f7665206c65616420726573706f6e736520737065656420616e6420726564756365206672696374696f6e20666f72206d6f62696c652075736572732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 316.41 cm
+q
+0.121569 0.301961 0.470588 rg
+BT
+1 0 0 1 0 1.1 Tm
+/F2 8.7 Tf
+9.8 TL
+(Customer Service Representative \057 Operations Support \055 Biryaniwalla Ottawa) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 301.16 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 7.95 Tf
+9.25 TL
+(Nepean\054 ON\054 Canada \174 Jan 2026 \055 Present) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 276.66 cm
+q
+BT
+1 0 0 1 8 10.55 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20537570706f7274206461696c792072657374617572616e74206f7065726174696f6e7320696e636c7564696e67206f7264657220636f6f7264696e6174696f6e2c20637573746f6d657220636f6d6d756e69636174696f6e2c207175616c69747920636865636b732c20616e642066617374207365727669636520696e206120686967682d766f6c756d65> Tj
+T*
+5 0 Td
+(environment\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 261.41 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20557365207265616c206f7065726174696f6e616c20657870657269656e636520746f20646566696e652070726163746963616c206175746f6d6174696f6e2069646561732c20696e636c7564696e672072657374617572616e742063616c6c2f6f7264657220776f726b666c6f777320616e642073746166662068616e646f6666207363656e6172696f732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 249.41 cm
+q
+0.121569 0.301961 0.470588 rg
+BT
+1 0 0 1 0 1.1 Tm
+/F2 8.7 Tf
+9.8 TL
+(Crew Trainer \055 Tim Hortons) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 234.16 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 7.95 Tf
+9.25 TL
+(Ontario\054 Canada \174 Jan 2024 \055 Aug 2025) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 218.91 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20547261696e656420616e6420737570706f72746564207465616d206d656d6265727320696e206120666173742d706163656420637573746f6d65722d7365727669636520656e7669726f6e6d656e74207768696c65206d61696e7461696e696e67207175616c6974792c2073706565642c20616e6420636f6e73697374656e63792e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 203.66 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f20537472656e677468656e656420636f6d6d756e69636174696f6e2c2072656c696162696c6974792c20736869667420636f6f7264696e6174696f6e2c20616e6420637573746f6d65722d68616e646c696e6720736b696c6c732075736566756c20666f722063726f73732d66756e6374696f6e616c20746563686e6963616c207465616d732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 202.16 cm
+Q
+q
+1 0 0 1 42 187.36 cm
+q
+0.898039 0.917647 0.94902 RG
+0.35 w
+n
+-0.8 -0.8 529.6 12.6 re
+S
+Q
+q
+0.043137 0.145098 0.270588 rg
+BT
+1 0 0 1 0 1.15 Tm
+/F2 9.85 Tf
+11 TL
+(Selected Projects) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 175.36 cm
+q
+0.121569 0.301961 0.470588 rg
+BT
+1 0 0 1 0 1.1 Tm
+/F2 8.7 Tf
+9.8 TL
+(MERLIN \055 Medical Emergency Routing and Live Intelligence Network) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 160.11 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 7.95 Tf
+9.25 TL
+(Healthcare AI \057 Emergency Response Simulation \174 In progress advanced prototype) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 144.86 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f204275696c7420612073796e7468657469632073696d756c6174696f6e20616e64204149206465636973696f6e2d737570706f72742072657365617263682070726f746f7479706520666f7220727572616c20616e642072656d6f746520656d657267656e637920646973706174636820706c616e6e696e672e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 120.36 cm
+q
+BT
+1 0 0 1 8 10.55 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f2044657369676e6564206c6f67696320666f72207365766572697479206d6f64656c696e672c20646973706174636820737472617465677920636f6d70617269736f6e2c20616d62756c616e63652f68656c69636f7074657220726f7574696e672c207361666574792076616c69646174696f6e2c2074726176656c20636f6e73747261696e74732c20617661696c6162696c6974792c> Tj
+T*
+5 0 Td
+(and result visualization\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 105.11 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f205573657320507974686f6e2c2070616e6461732c204e756d50792c207363696b69742d6c6561726e2d7374796c65204d4c206c6f6769632c205847426f6f73742c2073696d756c6174696f6e2c20726f7574696e67206c6f6769632c206f7074696d697a6174696f6e20636f6e63657074732c204d6174706c6f746c69622c20616e6420536561626f726e2e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 89.86 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f2050726573656e74656420726573706f6e7369626c792061732073696d756c6174696f6e20616e6420726573656172636820737570706f72742c206e6f742061206c69766520636c696e6963616c206f72206f7065726174696f6e616c2064697370617463682073797374656d2e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 42 77.86 cm
+q
+0.121569 0.301961 0.470588 rg
+BT
+1 0 0 1 0 1.1 Tm
+/F2 8.7 Tf
+9.8 TL
+(AR Glasses AI Assistant \055 Humber Capstone) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 62.61 cm
+q
+0.121569 0.160784 0.215686 rg
+BT
+1 0 0 1 0 1.3 Tm
+/F1 7.95 Tf
+9.25 TL
+(Multimodal AI \057 Augmented Reality \174 Advanced prototype) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 42 47.36 cm
+q
+BT
+1 0 0 1 8 1.3 Tm
+-5 0 Td
+9.25 TL
+/F1 7.95 Tf
+0.121569 0.160784 0.215686 rg
+<7f2044657369676e656420616e20414920617373697374616e7420636f6e6365707420666f72204272696c6c69616e74204c616273204672616d6520415220676c6173736573207573696e6720766f69636520696e7075742c20696d61676520756e6465727374616e64696e672c20616e64204c4c4d2d67656e65726174656420726573706f6e7365732e> Tj
+T*
+5 0 Td
+ET
+Q
+Q
+
+endstream
 endobj
 5 0 obj
 <<
-/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/F1 6 0 R
+/F2 7 0 R
 >>
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (\(anonymous\)) /CreationDate (D:20260709222237-04'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260709222237-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+/Contents 9 0 R
+/MediaBox [ 0 0 612 792 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3732
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2759
 >>
 stream
-Gb!#^?$G!n&q/*0kbfEh/dMU>CS'+#SA[59@=V)G@:'qPJK@I!7GWQ,ci!ROeL_*o?k25%c^FRHk!QMUWc-_)<K5>Yq!mb?0Oa<_c<;<<k',I*ao&p^fR1n\k3p%!o?/Y:%NBL[?DikMnZpaV\pek=4?r&;7mlE]#4:8daR[kCXQA'WqqdFZ'.i"6AI!DS^=T.ArD),5GM=?I236D/PlJbVN11i#?[3]pH-4f>7+%%>f.tNo:65Fpk.e1shc]R@LLKGNpj$[m-h)kU[@P,Fp+iges"Q1rrB\2B`7fC\RHq21fBn^26Pg0gms64n5:EZ4@LV/b#5`Gu@+R(iip:m_,nha)VXasM&U>Q0?M]H'qSAgB$p2_,dgPY;%R2h]\T(sTF-U\^H_F(*c98bj;<Rkc(VH>\UV>n%g4&;@=JcTQ\kRZ`Z$dlrZE>M&Q>)NT9l#3a[(g<6VV1Ahr5I#)q/Gkf1nT]F:M_?%\ldSq5P;V]p!Kn&\_8,/HWSN_?)L$FO8oR5[I#:F4`<=H#Gn2^\#m7sq]Id@<gh$;q.5l2;FKmBQ<g@MhJ(]]aj-tf]"`-t:QLf'DS5H6f(c.]%/O;>nnL-&[_!c=4WaYTp`#1G*B*lgNco.6/nN9c]Wf.sSWVMolJP_rfZYspIT65O'pat@ZiKTDMT_WO`)5+g)!RA.qAm?&LPL>n%C!]94@O;i@,\&Y$\IT`=pWEYFE)<<o6Ajq5m/mg)9gR.[&LT8@A.+J<;Wm'qA>k@kpC6';HiWF='Ds#pl:1?Nsfj$8fMRuG\ks<1:aGs;T.ZYG[t?Z+s&PC[FBr/7Q8uuGg`Nfd.[B\]AnOu[d4&tcO,<:Dksfl/EEfKEPpJc\A<(5S8!XS,Zo_YcZ*U+.'uYOm,E^rM7p79AgUUD8g*IU`>(-t)Qm2.o?bPi+3JV8PhBUL.oj=A!nb7!CVGo\D]fgR@^X(rQ*"n=UV/+q@i;=aBo"5/eD3Cg-:3>2AL,]#i9j(>0GZc`7YL*WhHUd"NXG0E#!gr/*Q<K*k7.DOfY:Iog4P>oIF9-4DQh"MPGPmuEeRH'6\X@ZE=\Asl)N[oiLfIB%j?F"K"Ad1^B-8WK/@4L/i1saF6n/Eq"("0FZl4b1:oL3HgRS?_k#XW%(E3[b\/$>#AKW['pq2<buGgf@BrG3b!,rCX^=KA!P$GcQ0]_#^udXQohsn.aRRgdjHtn0DPm"0)pdYjnF-@j28)MJSH>]=@3;a[)W(Mke!3i'!9krl.KgQCGoanhZqE[84jV(ST65F)oAT7Nf_YS']D^0^&a?qmT[dNaUhc&r@$&G,`8e?5ASRh]X-&476cC79+Teif`3Vb_Rq)^09nY)1:/W@Ui0.A-q)"K]VZ"!3eDSH;a=b3F0i*$E<g;St"kQF$5I"%9#;W#:OXs>pE@3mJ?@WCEs-u[2,psoUoP=-p)YnG[1$r&c[)^$ThHta9W.`4tCCPFl28^ds_o!mgM[!Au"EP0T<@V9J(F4<1Z.oW.aTp3O(9+g=7CWf:9T['r]0PFEK%?N/O2djY5Eh$ZMnoWJ/FV87XGZ4D!&C>Y-/<p29QoosRk.U[3^+4)Tj427+KcddO6[,LMM/T-etC#r3#Sl'^W6R-E@eG&-tp*=HgL3hrAFMJHMO/W>fAhfi6?)dm513='E^k/i`umm7's7rHk5&tc"p^_JM\sV:`Jc%a?pOulEiN!_5I7uH3=1<Ba[Bt<3j84Bq+0ukm.e;IIgfV];20Mb-_6B@e<X.Fkcm$>0[MI[9tYs#>VW893hksQn$"5b#upYgPmF94E%MY"i+g%ge!\6^=ViR5pbaqG>q+.7A>`#khGOUL3;3p\&fsF&0`tZc0=oK@f6;t@<Kn.ch.BeYkr'arBL9h:dmn,:r/GkV-<(T\>"8Ci_e.:<IYFRP??$C4I-1C/lQWX_GV.;E=>ZJVLn$\b"B>8eWiV#_A:8K4s_)Fq,3Sc/aI`/G;_``FZ+.LKj/4d,F?$_Pts=g8)Y^kS+J\u/4fnU.[K%R8Z`@t9%pE*%gQubgn7iHRZZ<10c-Vec0IZp/ISRB.f`DNUUPik[7WA%2s"A^[Z,5eVcNPI_L*e#[,BmF1M^lq0!\147M>fgH]:&ib\T\!YhI`_\8\,M"!`p"ihZ2seSpiGO?riSgAQjal;@078;+FmE;cF9!-)FO,*"n1eRkk?D5iQk6GsZ6(=i;qXoac]_%GFC>j[-kO18B"?:f8EjS(cRJe1TR2cEAUV2"T!>!##\3+!'e!FBThM/`*:eus"$TdAp\4o:JE/K3>]AYhH,:u,QhAuO<(b\Gd1'.1f+J'rlHnEn;*VIJ)ONn?Y.KQb9n,LM7QG7h1MV;DZKn+Pk6aHEIF3<W2H\CW@]BX=CgTY+,rX'rkK'mWNfGWk&uZdPTfFIu-cWdCZg@&F6^%TW#c$b8%7@[l!oWX8ra5s*W^l@Wr,/5:`Pb&X]fHffH\PStV/7[Y$:YQF?P]W;Iu=p*b9R<+eVWCZ>P92-muJ@aM^#NaF[)bNmZlIP"Ve=bP6^0PjbXepo4fHWa"MaUa&jQ8ng5`?UQC'R7D\O;R]&4Wt?%P\$T#m-Y<i^<rhZp\^^6W(c8[?.XY`6d&+Kc%T)A'2MfG$Pn&1)?rH'DY,7[OE+/.r8H>Bi/[,2IEeYWu#0:.n#&gEm';i>`P?0WqKa#]EZX9MbNX4a\;YGUasj;H.o>Ukb"8f0;G*o<"YHOeIZSBJ\koag4s`VR8cr"*\.(>'b&Sm[54LKOs7"u'3/<Ff-5Sj"j@U-)"Q>H+OLj,bLO27;/q_S-^_IVkscjO.Jlm&=/YN%?%2`F$THM8j+57FmQ2hb,-dB33#H2o4"_j)6/CfiJd2n-V/a[IZmLsA\9"H[Q**.^.J0]&/*T+2kV\PV(L*>?_*)#JA\pV5/AT3GrTFHhRRCMEj7*)h$jpCkA[/P#c:NZdiS3U#(EQ)9V,"uc,<40o9p]nfJ54I0Aj"#$<Q6kr9K59ugTHBE'.dnfs&!uMq73Y8AZp&RCXZu^=1qs.]bhI<Q!"J%_\3[(TijD@L9l@]Qf\U$=D+XY&EI?Ub1PB)eXC%]]6[8)V7A/*Yfsr^kal73??3D7a,dD$iS^n]F>X`:/*R^kFE'(jr'>7>qk)1/]:8'[p)\KJ@mpam%JF@%0On$08_]eDa2V)!DkWTY=KX1ch?u[rG1+f&Pi4--ps5#H\6=Zb<f1Ki++/VsDGqH0fQfL;d>!m+Zp/XnBmHpIG^oDY\T59Rl!9/d1,Spc>>;qgF--aq8@VeX%$_DdbhUrkZQr%PM+\"B'-S^fQpahbgs@EX[%>pkF#&KaPL+_>naSnY\K]U\eI$bh#9!r>L,X!.@"j#G\Q/B5[3LjV:_L,]OCWoM@4ti#>T]u)#3`V8C87<uYRMF+iq:M7,2Y/S+mu41.c3Mj<'9hQLU_;<[-i#=8n@;6#Yp6i^YPs,rYD4rf*?%d-K9eN<_[FS-mj.J(Z9oZVSa)+10E'aLnIG5*eQSHZr9B8C&9n=)NNZ,HV+Hicm^T?A%@&W7!6A2):W&n10&rI!bh!93.Iaqp;jT3qK%$)%/+&Uq=CrT.Jr3&>l1@OlF7o-r4*qa!C`5eRX(JejaFt3(/D+%h0t#g=Vh.@Ct5H#$3&i8jW@s`@.4TF]E131L4Nfe\b.m&.UZK+\]UU(,eZ8$$dClt4@)Q,Z;hch2^I$(f<f(BWD:Qm']P\7MsA.6G^S*Gi=^n=Qk[lg'DCko0li*;~>endstream
+Gb!#]gN):E&q05PaHtcQmXU8+e,)PnbBV#C(23/Q`4cp`+_nTa;G/=JR@'&mP9kcoN+lnThUlf"`fd?dQ]pTCQ@3N+bBH1'R-<Rh:+q"cRl"?2htGb\];G2Q].`XNlH+45HL7lenaS^oA&8":T7!h2Z^C"ur&kF%i&*U/Sp0OHK+@A7q+\WQ*T2.NdHe9`j$3EHas&nB\)6N!a<ZTNX:-ORV$rYI$:HF$EN3I[8J6m,X'FaDRZ$+19L9YXY:,XGMNSnGL6TeB2+]DLOpT]BAJ.mt2'cjlqg!UP8aMXN'.X\gO!ab:d,raQ/'WO>g#&a6*a\jK?f-1do"AZ0NBI6*_s-^6/e'qRd"Sk_X3j.u$A$!J]2U,p/%SfmiWhqG@5#[-)I46pBj"_+]p,co'EofiA8:]k,f9pncb`27aXU8#QR_g4P3=<trP?M>N>J^O5Nqt)[<mm.^CN!+"+kI;kCB(/1o]s:f`-NSkE)3m1E!4.in\QO78$9d;N"OM_U:7P>-9I2CJ(Ah2>eInScs5fPZDM@;_HYs3VfTt3YPQ@%?a.)D$i[h+_F`9e*fP3S8-/Z'S-N%gOR_rr!IrqZEi5?cYiuNO+l!t@+HN[A3K+3d@q%[aFT"qAUo@/<2EKn6rK.g]OM$D=B#<D)\ag)q3b%8e6?jQahVFqILIX9^"-DN5WjhT>Ro4^A=l-h/iAH5+ER7Q7M?p!`,l$PEXUJcp(Z+37q9-FWR86l3G23HN*1i"i+FnPIo%QajkPZ%*Gl<FOSdVVL=b\ff<.kZC9i6fUKH4Yp4'lKTZBO*,*A8pD@H$/hKs3p^O;sY^3"C92l[BQNOE`t#4MReM6W"u>UJlM3PQml*)(O-E:P-Y$6=,4#>s@C4g2gh9aam3V/)2]"k3AP5`??;5Wi?6<[,\.Il4!`898R0K-\i]qO@&&%?b*3-pYcea+>_bUeL"ka@`tD:2(P)=O*14G"#g'D<CWWc(JR.Z0toR)>%7^QWM#WR=(+MUmup\:n]`=\R<g)MP/S+caI9nOB?!ol'an-\$r7KHs]Z^2]Im!Ye+qJZ0&bh2A8Zr5f!"Q6jo2EO)nN9EYiT>Asi[fpA9[3oU@Lui[\unKaA(r#/&7CQND<(KO,TlWF._]+K1<7Le1$<PUYLS?_Pgr`Y.H%=bgH*'D4f%40TmV<3)[.9M.0+L5%bFmb;HuR>fNK+`19B88AD'LD'%A9ZVa6asMp53-TL?F1F%4@u0YM<m1q"'C0AO@n2YtVpjMch1dU5QIt2VQPkQR\5"UeG@M9bbpNIEVQn4hCD^=60ZnKo]S4_M@q_^f)Jg,V2/)*oT\646&1(BrPiL*<b*#P6]W&V^51pd$'VdM>DqD7c3V5(t,fJR#cM/%Ic`#lO3c6h&FTg'1PM")m/[LU%$4Z4\8618h96,[.9Ge:?)WR_Po$\1I>-GAB-oqeN>\-DKXmqRE^Ht2g^h"*Z&QiDDP0_F5%)lf>XqrLQbWJFf=0rU*EnD[+4'GZ^5_?D4B,.>;1p(P4GkIr)2rNInrUqge*cSkWBY>FGCs?j0@G/BK3h`D'kn:<A]W,K*dXY&#9jG5q(F_:0*1dkhNoe;$W-FjA\^`:42Cq:Ul),_3$0aImp\pbui(l9___>%9nqcs%E<_ISc9#!gmEV2Y]R)Nj]3]J4>pXYC&Q&srgaiD&cS-[SMeJkfoVh,>/r-q3LMHY6$W#-&cOAlpmlsM\N9lo:%<u0<k1^hqVo]jfmMkT^YKjl1ka+lS=ek6RlDD#E#E5RiP7f/X=(h3]Y+R*SX_@8'^7a:s^&[FWMWdb!+tDm@8YfA#U`WJ(1j-hRi'cu?@.Cs%hHl7%m6(\.5VGuqeQ5g,!V[NQ;F.iq8C0X?47l"sF&,[=_o*rO88Osp*+P]']"l7%<+D%)6L,@m"ho,e3L\f7"L@7hm,=m$qYscir_)O@VVHF,iZ;,j4XE'na8#h..BoKEGWqP/']3PE'_aE#nZLW!_t:<o91*G:2!P*XQ,j#)Us!-m&lOA*].qRkK9D:bi!1!L3A\-fcBm[Uhho.j,`uU\W(+J.ALJ0^?[a[:Xo:tHrDm`3Fs(IBdH#j]9><)InEj3K!u+KriN<cc"PDLrNmUTLq:$#[DSUJ0,]C=YEk'`GH1,K/dFB1Zdh&Z4Xf<$u+<0.ggi19qU-cAW`aGkdKi$2QWsjJpU1jGnCN&.CrO4lHGTQRj`PV01p%8bV8@;T?&aYG@[:.ABk9,9.<(EHY%($eTW0+'&;[LGteji,9ZRHE&h!APAWbCEc+]*;m(U4kDNfhglGC9\"H_]&Ce!8MX#Q7+"d2;YlDS(\]m6RL=PKS/VX$_s:&uml5WpWBT3UjW@2t7"+c.$Ur2;0XsKlqh`h-1uKHr6q+CU&Ud]5[S['C57o.*M6j``l_eY^ZpmPs`VRe'4XCI@5qr?tgHL1cC@BOG@9?RE;&T7BKQ82e@.W0NKq9W_mP-qWmc`&^O<RA#!,6lo]#"?kO%YbR$M-(N23>BUs%cKDTo?B0IhkNq-9FR2sNbBn8pG_8.Q""7A>^Be3\TI-tei:YgRtq;XbR)dTZGM?tn2G1\sV8D2(M]q>DBXS+\rO+d*RlkM!H=cfBda^u"N`=9WOnAQL-H+;?blr)SRmjl1c+,0@e;h,NP>qCQ[gp-c<f.VC!lukMkO,hq04ktP6c].B[6$&$Oq$0*==eCF[[:_JS^,P-5Re#O:lpts;Omi+C2gr8DrqC#O2?.aVFF38ZRZ,hcT55S*<?lha+"8.aN;~>
+endstream
 endobj
 10 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2759
+/Author (\050anonymous\051)
+/CreationDate (D\07220260709222237\05504\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220260709222237\05504\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (\050anonymous\051)
+/Trapped /False
 >>
-stream
-Gb!#]gN):E&q05PaHtcQmXU8+e,)PnbBV#C(23/Q`4cp`+_nTa;G/=JR@'&mP9kcoN+lnThUlf"`fd?dQ]pTCQ@3N+bBH1'R-<Rh:+q"cRl"?2htGb\];G2Q].`XNlH+45HL7lenaS^oA&8":T7!h2Z^C"ur&kF%i&*U/Sp0OHK+@A7q+\WQ*T2.NdHe9`j$3EHas&nB\)6N!a<ZTNX:-ORV$rYI$:HF$EN3I[8J6m,X'FaDRZ$+19L9YXY:,XGMNSnGL6TeB2+]DLOpT]BAJ.mt2'cjlqg!UP8aMXN'.X\gO!ab:d,raQ/'WO>g#&a6*a\jK?f-1do"AZ0NBI6*_s-^6/e'qRd"Sk_X3j.u$A$!J]2U,p/%SfmiWhqG@5#[-)I46pBj"_+]p,co'EofiA8:]k,f9pncb`27aXU8#QR_g4P3=<trP?M>N>J^O5Nqt)[<mm.^CN!+"+kI;kCB(/1o]s:f`-NSkE)3m1E!4.in\QO78$9d;N"OM_U:7P>-9I2CJ(Ah2>eInScs5fPZDM@;_HYs3VfTt3YPQ@%?a.)D$i[h+_F`9e*fP3S8-/Z'S-N%gOR_rr!IrqZEi5?cYiuNO+l!t@+HN[A3K+3d@q%[aFT"qAUo@/<2EKn6rK.g]OM$D=B#<D)\ag)q3b%8e6?jQahVFqILIX9^"-DN5WjhT>Ro4^A=l-h/iAH5+ER7Q7M?p!`,l$PEXUJcp(Z+37q9-FWR86l3G23HN*1i"i+FnPIo%QajkPZ%*Gl<FOSdVVL=b\ff<.kZC9i6fUKH4Yp4'lKTZBO*,*A8pD@H$/hKs3p^O;sY^3"C92l[BQNOE`t#4MReM6W"u>UJlM3PQml*)(O-E:P-Y$6=,4#>s@C4g2gh9aam3V/)2]"k3AP5`??;5Wi?6<[,\.Il4!`898R0K-\i]qO@&&%?b*3-pYcea+>_bUeL"ka@`tD:2(P)=O*14G"#g'D<CWWc(JR.Z0toR)>%7^QWM#WR=(+MUmup\:n]`=\R<g)MP/S+caI9nOB?!ol'an-\$r7KHs]Z^2]Im!Ye+qJZ0&bh2A8Zr5f!"Q6jo2EO)nN9EYiT>Asi[fpA9[3oU@Lui[\unKaA(r#/&7CQND<(KO,TlWF._]+K1<7Le1$<PUYLS?_Pgr`Y.H%=bgH*'D4f%40TmV<3)[.9M.0+L5%bFmb;HuR>fNK+`19B88AD'LD'%A9ZVa6asMp53-TL?F1F%4@u0YM<m1q"'C0AO@n2YtVpjMch1dU5QIt2VQPkQR\5"UeG@M9bbpNIEVQn4hCD^=60ZnKo]S4_M@q_^f)Jg,V2/)*oT\646&1(BrPiL*<b*#P6]W&V^51pd$'VdM>DqD7c3V5(t,fJR#cM/%Ic`#lO3c6h&FTg'1PM")m/[LU%$4Z4\8618h96,[.9Ge:?)WR_Po$\1I>-GAB-oqeN>\-DKXmqRE^Ht2g^h"*Z&QiDDP0_F5%)lf>XqrLQbWJFf=0rU*EnD[+4'GZ^5_?D4B,.>;1p(P4GkIr)2rNInrUqge*cSkWBY>FGCs?j0@G/BK3h`D'kn:<A]W,K*dXY&#9jG5q(F_:0*1dkhNoe;$W-FjA\^`:42Cq:Ul),_3$0aImp\pbui(l9___>%9nqcs%E<_ISc9#!gmEV2Y]R)Nj]3]J4>pXYC&Q&srgaiD&cS-[SMeJkfoVh,>/r-q3LMHY6$W#-&cOAlpmlsM\N9lo:%<u0<k1^hqVo]jfmMkT^YKjl1ka+lS=ek6RlDD#E#E5RiP7f/X=(h3]Y+R*SX_@8'^7a:s^&[FWMWdb!+tDm@8YfA#U`WJ(1j-hRi'cu?@.Cs%hHl7%m6(\.5VGuqeQ5g,!V[NQ;F.iq8C0X?47l"sF&,[=_o*rO88Osp*+P]']"l7%<+D%)6L,@m"ho,e3L\f7"L@7hm,=m$qYscir_)O@VVHF,iZ;,j4XE'na8#h..BoKEGWqP/']3PE'_aE#nZLW!_t:<o91*G:2!P*XQ,j#)Us!-m&lOA*].qRkK9D:bi!1!L3A\-fcBm[Uhho.j,`uU\W(+J.ALJ0^?[a[:Xo:tHrDm`3Fs(IBdH#j]9><)InEj3K!u+KriN<cc"PDLrNmUTLq:$#[DSUJ0,]C=YEk'`GH1,K/dFB1Zdh&Z4Xf<$u+<0.ggi19qU-cAW`aGkdKi$2QWsjJpU1jGnCN&.CrO4lHGTQRj`PV01p%8bV8@;T?&aYG@[:.ABk9,9.<(EHY%($eTW0+'&;[LGteji,9ZRHE&h!APAWbCEc+]*;m(U4kDNfhglGC9\"H_]&Ce!8MX#Q7+"d2;YlDS(\]m6RL=PKS/VX$_s:&uml5WpWBT3UjW@2t7"+c.$Ur2;0XsKlqh`h-1uKHr6q+CU&Ud]5[S['C57o.*M6j``l_eY^ZpmPs`VRe'4XCI@5qr?tgHL1cC@BOG@9?RE;&T7BKQ82e@.W0NKq9W_mP-qWmc`&^O<RA#!,6lo]#"?kO%YbR$M-(N23>BUs%cKDTo?B0IhkNq-9FR2sNbBn8pG_8.Q""7A>^Be3\TI-tei:YgRtq;XbR)dTZGM?tn2G1\sV8D2(M]q>DBXS+\rO+d*RlkM!H=cfBda^u"N`=9WOnAQL-H+;?blr)SRmjl1c+,0@e;h,NP>qCQ[gp-c<f.VC!lukMkO,hq04ktP6c].B[6$&$Oq$0*==eCF[[:_JS^,P-5Re#O:lpts;Omi+C2gr8DrqC#O2?.aVFF38ZRZ,hcT55S*<?lha+"8.aN;~>endstream
 endobj
 xref
 0 11
 0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000321 00000 n 
-0000000514 00000 n 
-0000000708 00000 n 
-0000000776 00000 n 
-0000001056 00000 n 
-0000001121 00000 n 
-0000004944 00000 n 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000148 00000 n 
+0000000337 00000 n 
+0000012935 00000 n 
+0000012976 00000 n 
+0000013083 00000 n 
+0000013195 00000 n 
+0000013384 00000 n 
+0000016235 00000 n 
 trailer
 <<
-/ID 
-[<94d97557d120771f58faea677d973e1b><94d97557d120771f58faea677d973e1b>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
 /Size 11
+/Root 1 0 R
+/Info 10 0 R
+/ID [ (\224\331uW\321 w\037X\372\352g\175\227\076\033) (\224\331uW\321 w\037X\372\352g\175\227\076\033) ]
 >>
 startxref
-7795
+16560
 %%EOF

@@ -22,7 +22,7 @@ export default function Navbar() {
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block text-sm font-semibold text-ink">Raja Thippareddy</span>
-            <span className="text-xs text-slate-500">AI/ML Developer | Ottawa</span>
+            <span className="text-xs text-slate-500">AI/ML Developer | Hamilton</span>
           </span>
         </a>
 

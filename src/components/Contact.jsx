@@ -13,7 +13,7 @@ export default function Contact() {
           <p className="text-lg leading-8 text-slate-700">
             I am open to AI Developer, Machine Learning Developer, Python Developer, Data/AI Analyst, Software Developer, Applied AI Developer, and LLM Evaluation roles.
           </p>
-          <p className="mt-4 text-slate-600">Based in Ottawa with an Open Work Permit and available for full-time roles across Canada.</p>
+          <p className="mt-4 text-slate-600">Based in Hamilton with an Open Work Permit and available for full-time roles across Canada.</p>
         </div>
         <div className="grid gap-3">
           <a className="contact-link" href="mailto:rajasatyavardhan@gmail.com">
@@ -29,7 +29,7 @@ export default function Contact() {
             <Download size={18} /> Download resume
           </a>
           <div className="contact-link">
-            <MapPin size={18} /> Ottawa, Canada
+            <MapPin size={18} /> Hamilton, Canada
           </div>
         </div>
       </div>

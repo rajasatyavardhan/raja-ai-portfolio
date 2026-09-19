@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="animate-rise">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/80 px-4 py-2 text-sm font-medium text-blue-800 shadow-sm">
             <MapPin size={16} />
-            Ottawa, Canada - Open Work Permit
+            Hamilton, Canada - Open Work Permit
           </div>
 
           <h1 className="max-w-5xl text-4xl font-semibold tracking-tight text-ink sm:text-6xl lg:text-7xl">
