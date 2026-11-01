@@ -1475,3 +1475,16 @@ section[id] { scroll-margin-top:100px; }
 .raja-socials a:hover{color:#4554e9}
 @keyframes raja-enter{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.reveal-section{opacity:1;transform:none}.raja-hero-grid>div>*,.raja-portrait-card{animation:none!important}.raja-portrait-card:hover img,.portal-card:hover .portal-proof-cover{transform:none}*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Original TRSVR creator signature, shared with Dansvilla and Telodynamic. */
+.creator-signature-original{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:12px;color:#647087;font-size:11px;line-height:1.6}
+.creator-signature-original .crafted{white-space:nowrap}
+.creator-signature-original .signature-mark{display:grid;place-items:center;width:46px;height:46px;flex:0 0 46px;border-radius:12px;background:#17213b;border:1px solid #c9a65b}
+.creator-signature-original img{display:block;width:40px;height:40px;object-fit:contain;transition:transform .25s ease}
+.creator-signature-original:hover img{transform:translateY(-1px) scale(1.04)}
+.creator-signature-original .signature-separator{width:1px;height:25px;background:#d9caa8}
+.creator-signature-original .signature-name{font-size:12px;font-weight:650;color:#34466b;text-decoration:none}
+.creator-signature-original .signature-name:hover{text-decoration:underline;text-underline-offset:4px}
+.footer .creator-signature-original{width:100%;padding-top:16px;border-top:1px solid #e2e6f0}
+@media(max-width:600px){.creator-signature-original{justify-content:flex-start;gap:10px}.creator-signature-original .crafted{width:100%}.creator-signature-original .signature-separator{display:none}}
+@media(prefers-reduced-motion:reduce){.creator-signature-original img{transition:none}.creator-signature-original:hover img{transform:none}}
