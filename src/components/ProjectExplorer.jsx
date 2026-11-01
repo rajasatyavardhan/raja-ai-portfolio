@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Ambulance,
@@ -324,6 +324,12 @@ export default function ProjectExplorer() {
   const [selected, setSelected] = useState(null);
   const [launching, setLaunching] = useState(null);
 
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("view") !== "client-work" || window.location.hash !== "#projects") return;
+    const frame = requestAnimationFrame(() => document.getElementById("projects")?.scrollIntoView({ behavior: "instant", block: "start" }));
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
   const projects = useMemo(() => {
     return [
       ...featuredProjects.filter(project => project.title !== "The Dansvilla Studio").map((project, index) => normalizeProject(project, "Featured", index)),
@@ -349,13 +355,13 @@ export default function ProjectExplorer() {
       <div className="portal-shell">
         <div className="portal-hero">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">Healthcare, accessibility & applied AI</p>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">{filter === "Client Work" ? "Websites & practical business tools" : "Healthcare, accessibility & applied AI"}</p>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Explore the work behind the ideas.</h2>
           </div>
           <div className="portal-python-panel">
-            <span>Python core</span>
-            <code>data -&gt; model -&gt; decision -&gt; proof</code>
-            <p>Most portfolio systems connect Python, ML logic, dashboards, notebooks, reports, or deployment evidence.</p>
+            <span>{filter === "Client Work" ? "From idea to usable website" : "Python core"}</span>
+            <code>{filter === "Client Work" ? "listen → structure → build → handoff" : "data → model → decision → proof"}</code>
+            <p>{filter === "Client Work" ? "Explore each project for the business problem, my contribution, and a live website or clearly labelled preview." : "Most portfolio systems connect Python, ML logic, dashboards, notebooks, reports, or deployment evidence."}</p>
           </div>
         </div>
 
