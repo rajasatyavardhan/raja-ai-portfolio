@@ -5,10 +5,12 @@ import ProjectExplorer from "./components/ProjectExplorer.jsx";
 import ProfileTabs from "./components/ProfileTabs.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import MotionDetails from "./components/MotionDetails.jsx";
 
 export default function App() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-mist text-ink">
+      <MotionDetails />
       <Navbar />
       <main>
         <Hero />

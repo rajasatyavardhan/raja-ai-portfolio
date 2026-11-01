@@ -1443,3 +1443,35 @@ section[id] { scroll-margin-top:100px; }
 .raja-hero { padding-top:108px; }.raja-hero-grid { grid-template-columns:1fr;gap:30px; }.raja-portrait-card { max-width:380px;width:100%;margin:auto; }.raja-portrait-card img { height:280px; }.raja-business-bridge { padding:20px 0;align-items:start;flex-direction:column;gap:14px; }.raja-hero h1 { font-size:clamp(44px,9vw,65px); }.raja-intro { margin-top:22px; }.raja-lead { font-size:16px; }.raja-footer-top nav { gap:18px; }.contact-link { overflow-wrap:anywhere; }.contact-link svg { flex-shrink:0; }
 }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important;transition:none!important;scroll-behavior:auto!important; } }
+
+/* A single readable creator mark */
+.creator-monogram{display:inline-grid;place-items:center;flex:0 0 42px;width:42px;height:42px;padding:0;border:1px solid #dfe3ee;border-radius:13px;background:#f0f2ff;color:#4554c4;font:750 23px/1 system-ui,sans-serif;font-style:normal;letter-spacing:-.04em;transform:none;box-sizing:border-box}
+.creator-seal{align-items:center;gap:12px}
+.creator-caption{line-height:1.5}
+.creator-caption small{font-size:12px;letter-spacing:0}
+.creator-caption strong{font-size:10px;font-weight:500;color:#6c7587}
+
+/* Purposeful motion, without continuous movement */
+.reading-progress{position:fixed;inset:0 0 auto;height:3px;z-index:80;background:linear-gradient(90deg,#4554e9,#9fa7ff);transform:scaleX(0);transform-origin:left;pointer-events:none}
+.raja-hero-grid>div>*{animation:raja-enter .7s cubic-bezier(.22,1,.36,1) both}
+.raja-hero-grid>div>*:nth-child(2){animation-delay:.06s}
+.raja-hero-grid>div>*:nth-child(3){animation-delay:.12s}
+.raja-hero-grid>div>*:nth-child(4){animation-delay:.18s}
+.raja-hero-grid>div>*:nth-child(n+5){animation-delay:.24s}
+.raja-portrait-card{animation:raja-enter .9s .12s cubic-bezier(.22,1,.36,1) both;transition:box-shadow .3s ease}
+.raja-portrait-card:hover{box-shadow:0 18px 55px #17213b12}
+.raja-portrait-card img{transition:transform .65s cubic-bezier(.22,1,.36,1)}
+.raja-portrait-card:hover img{transform:scale(1.025)}
+.raja-hero h1 span{background:linear-gradient(100deg,#4554e9,#7378de);background-clip:text;-webkit-background-clip:text;color:transparent}
+.reveal-section{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+.reveal-section.is-visible{opacity:1;transform:none}
+.raja-business-bridge{transition:background .25s,padding .25s}
+.raja-business-bridge:hover{background:#eff1e9}
+.raja-business-bridge svg,.raja-button svg{transition:transform .2s}
+.raja-business-bridge:hover svg,.raja-button:hover svg{transform:translateX(3px)}
+.portal-card .portal-proof-cover{transition:transform .4s ease}
+.portal-card:hover .portal-proof-cover{transform:scale(1.015)}
+.raja-socials a{transition:color .2s}
+.raja-socials a:hover{color:#4554e9}
+@keyframes raja-enter{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.reveal-section{opacity:1;transform:none}.raja-hero-grid>div>*,.raja-portrait-card{animation:none!important}.raja-portrait-card:hover img,.portal-card:hover .portal-proof-cover{transform:none}*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

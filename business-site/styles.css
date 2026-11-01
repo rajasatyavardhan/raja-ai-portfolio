@@ -58,3 +58,10 @@ body{overflow-x:clip}
 .story-facts p{margin:4px 0 0}
 @media(max-width:740px){.nav a.profile-link{display:inline-flex!important;font-size:10px}.nav{gap:10px}.nav .nav-cta{padding:10px}.brand-sub{letter-spacing:0}.work-story{grid-template-columns:1fr;gap:14px}.footer .creator-seal{order:5}.profile-strip{line-height:1.8}}
 @media(max-width:380px){.nav a.profile-link{font-size:9px}.brand-word{font-size:18px}.nav{gap:8px}}
+
+/* A single readable creator mark */
+.creator-monogram{display:inline-grid;place-items:center;flex:0 0 42px;width:42px;height:42px;padding:0;border:1px solid #dfe3ee;border-radius:13px;background:#f0f2ff;color:#4554c4;font:750 23px/1 system-ui,sans-serif;font-style:normal;letter-spacing:-.04em;transform:none;box-sizing:border-box}
+.creator-seal{align-items:center;gap:12px}
+.creator-caption{line-height:1.5}
+.creator-caption small{font-size:12px;letter-spacing:0}
+.creator-caption strong{font-size:10px;font-weight:500;color:#6c7587}
