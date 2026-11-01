@@ -1398,3 +1398,48 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Shared Raja identity */
+:root { --raja-blue:#4554e9; --raja-ink:#17213b; --raja-paper:#f8f9f5; }
+body { background:var(--raja-paper); }
+a:focus-visible,button:focus-visible { outline:3px solid #6375ef;outline-offset:5px; }
+section[id] { scroll-margin-top:100px; }
+.raja-hero { padding:148px max(24px,calc((100vw - 1184px)/2)) 44px;background:var(--raja-paper); }
+.raja-hero-grid { display:grid;grid-template-columns:1.3fr .8fr;gap:64px;align-items:center; }
+.raja-eyebrow { display:flex;align-items:center;gap:8px;font-size:11px;font-weight:750;letter-spacing:.09em;color:#4656b7;line-height:1.7; }
+.raja-intro { margin:29px 0 10px;font-size:23px;font-weight:600;color:var(--raja-ink); }
+.raja-hero h1 { font-size:clamp(48px,5.8vw,78px);line-height:1.06;letter-spacing:-.065em;font-weight:800;color:var(--raja-ink); }
+.raja-hero h1 span { color:var(--raja-blue); }
+.raja-fullname { margin-top:23px;font-weight:650;font-size:14px;color:#4c5670; }
+.raja-lead { max-width:550px;font-size:18px;line-height:1.8;margin:15px 0 24px;color:#586176; }
+.raja-actions,.raja-socials { display:flex;gap:12px;flex-wrap:wrap; }
+.raja-button { display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:15px 21px;border-radius:13px;background:var(--raja-blue);color:white;font-size:14px;font-weight:700;border:1px solid var(--raja-blue);transition:transform .15s; }
+.raja-button:hover { transform:translateY(-2px); }
+.raja-button.secondary { background:white;color:var(--raja-ink);border-color:#dce0e8; }
+.raja-socials { margin-top:23px;gap:24px;color:#4f5a72;font-size:12px;font-weight:650; }
+.raja-socials a { display:flex;align-items:center;gap:6px; }
+.raja-portrait-card { position:relative;background:#edf0e5;border-radius:140px 140px 28px 28px;padding:22px 22px 0;overflow:hidden;align-self:stretch;display:flex;flex-direction:column;justify-content:end;max-width:400px; }
+.raja-portrait-card img { width:100%;height:310px;object-fit:cover;object-position:center 15%;border-radius:110px 110px 20px 20px; }
+.raja-portrait-caption { padding:23px 5px 25px; }
+.raja-portrait-caption strong { display:block;font-size:28px;line-height:1.2;letter-spacing:-.035em;margin:9px 0;color:var(--raja-ink); }
+.raja-portrait-caption p { font-size:11px;color:#68745f; }
+.raja-business-bridge { margin-top:42px;padding:22px 26px;border-top:1px solid #dce1dc;border-bottom:1px solid #dce1dc;display:flex;justify-content:space-between;gap:20px;align-items:center; }
+.raja-business-bridge small { display:block;font-size:9px;letter-spacing:.15em;color:#68745f;margin-bottom:6px;font-weight:750; }
+.raja-business-bridge strong { font-size:15px;color:var(--raja-ink); }
+.raja-business-bridge>span:last-child { display:flex;align-items:center;gap:16px;font-size:13px;color:var(--raja-blue);font-weight:750; }
+.raja-footer { padding:35px max(24px,calc((100vw - 1184px)/2));background:white;border-top:1px solid #e0e4e9; }
+.raja-footer-top,.raja-footer-bottom { display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap; }
+.raja-footer-top strong { font-size:19px;color:var(--raja-ink); }
+.raja-footer-top p,.raja-footer-bottom>p { margin-top:6px;font-size:11px;color:#758098; }
+.raja-footer-top nav { display:flex;gap:24px;font-size:12px;font-weight:650;color:#556078; }
+.raja-footer-bottom { margin-top:25px;padding-top:22px;border-top:1px solid #e5e7ed; }
+.creator-seal { display:inline-flex;align-items:center;gap:14px;text-decoration:none;color:#415078; }
+.creator-monogram { font:bold italic 24px Georgia,serif;letter-spacing:-4px;transform:rotate(-6deg);border-bottom:1.5px solid #7a86b9;color:#4554b9;padding:0 7px 4px 0; }
+.creator-caption { display:flex;flex-direction:column;gap:4px; }
+.creator-caption strong { font-size:11px;color:#47516a;font-weight:650; }
+.creator-caption small { font-size:12px;color:#3a4b83; }
+.portal-proof-cover { width:100%;height:160px;object-fit:cover;border-radius:18px;border:1px solid #e2e7ef;background:#f1f5f9; }
+@media(max-width:800px) {
+.raja-hero { padding-top:108px; }.raja-hero-grid { grid-template-columns:1fr;gap:30px; }.raja-portrait-card { max-width:380px;width:100%;margin:auto; }.raja-portrait-card img { height:280px; }.raja-business-bridge { padding:20px 0;align-items:start;flex-direction:column;gap:14px; }.raja-hero h1 { font-size:clamp(44px,9vw,65px); }.raja-intro { margin-top:22px; }.raja-lead { font-size:16px; }.raja-footer-top nav { gap:18px; }.contact-link { overflow-wrap:anywhere; }.contact-link svg { flex-shrink:0; }
+}
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none!important;transition:none!important;scroll-behavior:auto!important; } }

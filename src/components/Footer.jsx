@@ -1,12 +1,4 @@
 import React from "react";
-
 export default function Footer() {
-  return (
-    <footer className="border-t border-slate-200 bg-white px-5 py-8 sm:px-8 lg:px-12">
-      <div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-        <p>&copy; 2026 Raja Satya Vardhana Reddy Thippareddy.</p>
-        <p>A little AI, a little systems thinking, and a lot of debugging.</p>
-      </div>
-    </footer>
-  );
+  return <footer className="raja-footer"><div className="raja-footer-top"><div><strong>Raja Thippareddy</strong><p>AI, Python, and thoughtful digital work.</p></div><nav aria-label="Footer navigation"><a href="#projects">Projects</a><a href="#profile">Profile</a><a href="https://raja-builds.vercel.app/">Raja Builds ↗</a></nav></div><div className="raja-footer-bottom"><p>© {new Date().getFullYear()} Raja Thippareddy</p><a href="#profile" className="creator-seal"><span className="creator-monogram" aria-hidden="true">TRSVR</span><span className="creator-caption"><strong>Created &amp; crafted with <span aria-label="love">❤️</span> by</strong><small>T. Raja Satya Vardhana Reddy</small></span></a></div></footer>;
 }

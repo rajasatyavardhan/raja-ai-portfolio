@@ -18,11 +18,11 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
         <a href="#top" className="group flex items-center gap-3">
           <span className="grid h-10 w-10 place-items-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-sm font-bold text-white shadow-card">
-            RT
+            R
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block text-sm font-semibold text-ink">Raja Thippareddy</span>
-            <span className="text-xs text-slate-500">AI/ML Developer | Hamilton</span>
+            <span className="text-xs text-slate-500">AI & Python Developer</span>
           </span>
         </a>
 
@@ -32,7 +32,7 @@ export default function Navbar() {
               {label}
             </a>
           ))}
-        </div>
+        <a href="https://raja-builds.vercel.app/" className="rounded-full px-4 py-2 text-sm font-semibold text-blue-700 hover:bg-blue-50">Raja Builds ↗</a></div>
 
         <a href={resumeUrl} className="hidden rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-navy md:inline-flex">
           Resume
@@ -43,6 +43,8 @@ export default function Navbar() {
           className="rounded-full border border-slate-200 bg-white p-2 text-ink md:hidden"
           onClick={() => setOpen((value) => !value)}
           aria-label="Toggle navigation"
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
         >
           {open ? <X size={20} /> : <Menu size={20} />}
         </button>
@@ -50,12 +52,14 @@ export default function Navbar() {
 
       {open && (
         <div className="border-t border-slate-200 bg-white px-5 py-4 md:hidden">
-          <div className="grid gap-2">
+          <div id="mobile-navigation" className="grid gap-2">
             {links.map(([label, id]) => (
               <a key={id} href={`#${id}`} onClick={() => setOpen(false)} className="rounded-xl px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100">
                 {label}
               </a>
             ))}
+            <a href="https://raja-builds.vercel.app/" className="rounded-xl px-3 py-2 text-sm font-semibold text-blue-700">Raja Builds ↗</a>
+            <a href={resumeUrl} className="rounded-xl px-3 py-2 text-sm font-semibold text-slate-700">View résumé</a>
           </div>
         </div>
       )}

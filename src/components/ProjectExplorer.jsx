@@ -178,13 +178,13 @@ function PortalCard({ project, active, launching, onOpen, index }) {
           <Icon size={18} />
         </span>
       </div>
-      <ProjectWorld type={project.visualType} compact />
+      {project.proofImages?.length ? <img src={publicAsset(project.proofImages[0])} alt={project.title + " project evidence"} loading="lazy" className="portal-proof-cover" /> : <ProjectWorld type={project.visualType} compact />}
       <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-blue-700">{project.category}</p>
       <h3 className="mt-2 text-xl font-semibold tracking-tight text-ink">{project.title}</h3>
       {project.subtitle && <p className="mt-1 text-sm font-medium text-slate-500">{project.subtitle}</p>}
       <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">{project.why || project.description}</p>
       <div className="mt-4 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-blue-700">
-        Enter project world <ChevronRight size={14} />
+        Explore project <ChevronRight size={14} />
       </div>
     </motion.button>
   );
@@ -340,12 +340,12 @@ export default function ProjectExplorer() {
   }
 
   return (
-    <Section id="projects" eyebrow="Project Worlds" title="Main projects first. Supporting proof one click away.">
+    <Section id="projects" eyebrow="Selected work" title="Real problems. Thoughtful builds.">
       <div className="portal-shell">
         <div className="portal-hero">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">AI/ML profile command center</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Click a project to open its world.</h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-200">Healthcare, accessibility & applied AI</p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">Explore the work behind the ideas.</h2>
           </div>
           <div className="portal-python-panel">
             <span>Python core</span>

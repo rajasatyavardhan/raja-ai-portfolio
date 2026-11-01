@@ -1,86 +1,26 @@
 import React from "react";
-import { ArrowRight, Download, Github, Linkedin, Mail, MapPin, Sparkles } from "lucide-react";
-
+import { ArrowRight, Download, Github, Linkedin, MapPin } from "lucide-react";
 const resumeUrl = `${import.meta.env.BASE_URL}Raja_Resume.pdf`;
-
 export default function Hero() {
-  return (
-    <section id="top" className="relative isolate px-5 pb-12 pt-28 sm:px-8 lg:px-12">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_20%_20%,rgba(99,102,241,0.18),transparent_28%),radial-gradient(circle_at_80%_10%,rgba(14,165,233,0.16),transparent_30%),linear-gradient(180deg,#ffffff,#f8fafc)]" />
-      <div className="absolute left-1/2 top-24 -z-10 h-48 w-48 -translate-x-1/2 rounded-full bg-blue-200/30 blur-3xl" />
-
-      <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-        <div className="animate-rise">
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/80 px-4 py-2 text-sm font-medium text-blue-800 shadow-sm">
-            <MapPin size={16} />
-            Hamilton, Canada - Open Work Permit
-          </div>
-
-          <h1 className="max-w-5xl text-4xl font-semibold tracking-tight text-ink sm:text-6xl lg:text-7xl">
-            Raja Satya Vardhana Reddy Thippareddy
-          </h1>
-
-          <p className="mt-5 max-w-4xl text-base font-semibold text-blue-900 sm:text-lg">
-            AI Developer | Machine Learning Developer | Python Developer | Data/AI Analyst | Software Developer | Applied AI Developer
-          </p>
-
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-650 sm:text-xl">
-            I build practical AI, Python, data, computer vision, IoT, and business automation projects with proof recruiters can inspect.
-          </p>
-
-          <div className="mt-7 flex flex-wrap gap-3">
-            <span className="quote-chip">Proof over buzzwords.</span>
-            <span className="quote-chip">Production thinking, portfolio proof.</span>
-            <span className="quote-chip">AI systems, not just notebooks.</span>
-          </div>
-
-          <div className="mt-9 flex flex-wrap gap-3">
-            <a href={resumeUrl} className="inline-flex items-center gap-2 rounded-full bg-blue-700 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-blue-800">
-              <Download size={17} /> Resume
-            </a>
-            <a href="#projects" className="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-navy">
-              View Projects <ArrowRight size={17} />
-            </a>
-            <a href="https://github.com/rajasatyavardhan" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300">
-              <Github size={17} /> GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/t-raja-satya-vardhan-reddy-05b1b8191" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300">
-              <Linkedin size={17} /> LinkedIn
-            </a>
-            <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300">
-              <Mail size={17} /> Contact
-            </a>
-          </div>
+  return <section id="top" className="raja-hero">
+    <div className="raja-hero-grid">
+      <div>
+        <p className="raja-eyebrow"><MapPin size={15} aria-hidden="true" /> Hamilton, Canada · Open to healthcare technology roles</p>
+        <p className="raja-intro">Hi, I'm Raja.</p>
+        <h1>AI &amp; Python.<br /><span>Built for people.</span></h1>
+        <p className="raja-fullname">Raja Satya Vardhana Reddy Thippareddy</p>
+        <p className="raja-lead">I build practical AI and software projects, with a focus on healthcare, accessibility, and useful everyday systems.</p>
+        <div className="raja-actions">
+          <a href="#projects" className="raja-button">Explore my projects <ArrowRight size={17} /></a>
+          <a href={resumeUrl} className="raja-button secondary"><Download size={17} /> View résumé</a>
         </div>
-
-        <div className="relative animate-float rounded-[2rem] border border-white bg-white/70 p-5 shadow-soft backdrop-blur">
-          <div className="rounded-[1.5rem] border border-slate-100 bg-gradient-to-br from-slate-950 via-blue-950 to-violet-950 p-6 text-white">
-            <div className="mb-8 flex items-center justify-between">
-              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium">
-                <Sparkles size={14} /> Professional AI profile
-              </span>
-              <span className="text-xs text-blue-100">Portfolio profile</span>
-            </div>
-            <p className="text-sm uppercase tracking-[0.25em] text-blue-200">Current signal</p>
-            <div className="mt-4 grid gap-3">
-              {[
-                "LLM evaluation and chatbot quality analysis",
-                "Healthcare AI simulations",
-                "Multimodal assistant workflows",
-                "Big-data prediction pipelines",
-                "Sign language, smart door, NLP, CV, and web automation",
-              ].map((item) => (
-                <div key={item} className="rounded-2xl border border-white/10 bg-white/10 p-4 text-sm text-blue-50">
-                  {item}
-                </div>
-              ))}
-            </div>
-            <p className="mt-6 text-sm leading-6 text-blue-100">
-              A little AI, a little systems thinking, and a lot of debugging.
-            </p>
-          </div>
-        </div>
+        <div className="raja-socials"><a href="https://github.com/rajasatyavardhan" target="_blank" rel="noreferrer"><Github size={16} /> GitHub</a><a href="https://www.linkedin.com/in/t-raja-satya-vardhan-reddy-05b1b8191" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a><a href="#contact">Get in touch ↗</a></div>
       </div>
-    </section>
-  );
+      <aside className="raja-portrait-card" aria-label="Meet Raja">
+        <img src="/raja-portrait.webp" width="340" height="425" alt="Raja smiling in a navy blue suit" fetchPriority="high" />
+        <div className="raja-portrait-caption"><span className="raja-eyebrow">Curiosity into useful work</span><strong>Learn deeply.<br />Build thoughtfully.</strong><p>Python · Machine learning · Applied AI</p></div>
+      </aside>
+    </div>
+    <a className="raja-business-bridge" href="https://raja-builds.vercel.app/"><span><small>FOR BUSINESSES &amp; EVERYDAY IDEAS</small><strong>Need a website or practical digital help?</strong></span><span>Meet Raja Builds <ArrowRight size={19} /></span></a>
+  </section>;
 }

@@ -11,9 +11,10 @@ export default function Contact() {
       <div className="grid gap-6 lg:grid-cols-[1fr_0.8fr]">
         <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-card">
           <p className="text-lg leading-8 text-slate-700">
-            I am open to AI Developer, Machine Learning Developer, Python Developer, Data/AI Analyst, Software Developer, Applied AI Developer, and LLM Evaluation roles.
+            I am looking for full-time AI, Python, software, and data roles in healthcare across Canada. I bring project experience in emergency-response simulation, multimodal assistants, and accessibility.
           </p>
-          <p className="mt-4 text-slate-600">Based in Hamilton with an Open Work Permit and available for full-time roles across Canada.</p>
+          <p className="mt-4 text-slate-600">Based in Hamilton · Open Work Permit · Open to relocation across Canada.</p>
+          <a href="https://raja-builds.vercel.app/#contact" className="mt-5 inline-flex text-sm font-semibold text-blue-700">Have a business project? Talk to Raja Builds ↗</a>
         </div>
         <div className="grid gap-3">
           <a className="contact-link" href="mailto:rajasatyavardhan@gmail.com">
