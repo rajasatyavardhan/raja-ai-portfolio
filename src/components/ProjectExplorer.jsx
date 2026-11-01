@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Ambulance,
@@ -19,6 +19,8 @@ import {
 } from "lucide-react";
 import { featuredProjects, clientProjects, labs, prototype } from "../data/projects.js";
 import Section from "./Section.jsx";
+import ProjectScene from "./ProjectScene.jsx";
+import { animatedSceneTypes } from "../lib/project-scenes.js";
 
 const visualIcon = {
   merlin: Ambulance,
@@ -217,6 +219,23 @@ function TagGroup({ title, items, tone = "default" }) {
 }
 
 function ProjectModal({ project, onClose }) {
+  const dialogRef = useRef(null);
+  useEffect(() => {
+    const previous = document.activeElement;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    dialogRef.current?.querySelector("button")?.focus();
+    const handleKey = event => {
+      if (event.key === "Escape") { event.preventDefault(); onClose(); }
+      if (event.key !== "Tab") return;
+      const items = [...dialogRef.current.querySelectorAll("a[href],button:not([disabled]),[tabindex=\"0\"]")];
+      const first = items[0], last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+    };
+    document.addEventListener("keydown", handleKey);
+    return () => { document.body.style.overflow = previousOverflow; document.removeEventListener("keydown", handleKey); previous?.focus(); };
+  }, []);
   const pipeline = [
     ["Problem", project.why || "Real-world workflow or technical challenge"],
     ["Build", project.tech?.slice(0, 5).join(" + ") || "Practical implementation"],
@@ -231,6 +250,10 @@ function ProjectModal({ project, onClose }) {
       exit={{ opacity: 0 }}
     >
       <motion.article
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="project-detail-title"
         className="max-h-[94vh] w-full max-w-7xl overflow-y-auto rounded-[2rem] border border-white/60 bg-white shadow-soft"
         initial={{ opacity: 0, y: 28, scale: 0.97 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -248,7 +271,7 @@ function ProjectModal({ project, onClose }) {
           </button>
           <div className="relative z-[1] grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <ProjectWorld type={project.visualType} />
+              {animatedSceneTypes.includes(project.visualType) ? <ProjectScene type={project.visualType} /> : <ProjectWorld type={project.visualType} />}
               {project.proofImages?.length > 0 && (
                 <div className="mt-4 grid grid-cols-3 gap-2">
                   {project.proofImages.slice(0, 3).map((src) => (
@@ -262,7 +285,7 @@ function ProjectModal({ project, onClose }) {
 
             <div className="rounded-[1.5rem] border border-white/70 bg-white/90 p-5 shadow-card backdrop-blur sm:p-7">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-700">{project.tier} project world</p>
-              <h3 className="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{project.title}</h3>
+              <h3 id="project-detail-title" className="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{project.title}</h3>
               {project.subtitle && <p className="mt-2 font-medium text-slate-500">{project.subtitle}</p>}
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-full bg-slate-950 px-3 py-1 text-xs font-semibold text-white">{project.status}</span>
@@ -343,11 +366,7 @@ export default function ProjectExplorer() {
   const visible = filter === "All" ? projects : projects.filter((project) => project.tier === filter);
 
   function openProject(project) {
-    setLaunching(project.portalId);
-    window.setTimeout(() => {
-      setSelected(project);
-      setLaunching(null);
-    }, 520);
+    setSelected(project);
   }
 
   return (
