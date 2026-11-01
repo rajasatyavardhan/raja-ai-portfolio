@@ -2,6 +2,8 @@ import React, { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Ambulance,
+  Building2,
+  Car,
   BrainCircuit,
   ChevronRight,
   DoorOpen,
@@ -15,11 +17,13 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { featuredProjects, labs, prototype } from "../data/projects.js";
+import { featuredProjects, clientProjects, labs, prototype } from "../data/projects.js";
 import Section from "./Section.jsx";
 
 const visualIcon = {
   merlin: Ambulance,
+  business: Building2,
+  driving: Car,
   flight: Plane,
   ar: Glasses,
   nlp: MessageSquareText,
@@ -172,7 +176,7 @@ function PortalCard({ project, active, launching, onOpen, index }) {
       <div className="portal-card-glow" />
       <div className="mb-4 flex items-center justify-between gap-3">
         <span className="rounded-full bg-white/80 px-3 py-1 text-[0.68rem] font-bold uppercase tracking-[0.14em] text-slate-600">
-          {project.tier}
+          {project.publication || project.tier}
         </span>
         <span className="grid h-10 w-10 place-items-center rounded-2xl bg-slate-950 text-white shadow-sm">
           <Icon size={18} />
@@ -316,19 +320,20 @@ function ProjectModal({ project, onClose }) {
 }
 
 export default function ProjectExplorer() {
-  const [filter, setFilter] = useState("Featured");
+  const [filter, setFilter] = useState(() => new URLSearchParams(window.location.search).get("view") === "client-work" ? "Client Work" : "Featured");
   const [selected, setSelected] = useState(null);
   const [launching, setLaunching] = useState(null);
 
   const projects = useMemo(() => {
     return [
-      ...featuredProjects.map((project, index) => normalizeProject(project, "Featured", index)),
+      ...featuredProjects.filter(project => project.title !== "The Dansvilla Studio").map((project, index) => normalizeProject(project, "Featured", index)),
+      ...clientProjects.map((project, index) => normalizeProject(project, "Client Work", index)),
       ...labs.map((project, index) => normalizeProject(project, "Supporting", index)),
       normalizeProject(prototype, "Prototype", 0),
     ];
   }, []);
 
-  const filters = ["Featured", "Supporting", "Prototype", "All"];
+  const filters = ["Featured", "Client Work", "Supporting", "Prototype", "All"];
   const visible = filter === "All" ? projects : projects.filter((project) => project.tier === filter);
 
   function openProject(project) {
@@ -360,6 +365,7 @@ export default function ProjectExplorer() {
               key={item}
               type="button"
               onClick={() => setFilter(item)}
+              aria-pressed={filter === item}
               className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
                 filter === item ? "bg-white text-slate-950 shadow-sm" : "bg-white/10 text-blue-100 hover:bg-white/20"
               }`}

@@ -322,3 +322,87 @@ export const prototype = {
   visualType: "frontmate",
   proofImages: ["/proof/frontmate/frontmate-home.png"],
 };
+
+
+export const clientProjects = [
+  { ...featuredProjects.find(project => project.title === "The Dansvilla Studio"), subtitle: "Dance studio website & enquiry workflow", publication: "Live website", description: "Built the live Dansvilla Studio website, bringing class schedules, pricing, rentals, event information, and guided enquiries together in a mobile-friendly experience. Visitors can continue their enquiry through WhatsApp.", note: "Live website and enquiry workflow. Enquiry and revenue improvements have not been measured." },
+  ...[
+  {
+    "title": "Telodynamic Solutions",
+    "subtitle": "Nuclear medicine business website",
+    "category": "Client Website / Healthcare Technology",
+    "status": "Live website",
+    "publication": "Live website",
+    "why": "Specialized engineering services need to be easy for prospective clients to understand and enquire about.",
+    "description": "Developed the public website for Telodynamic Solutions, presenting nuclear medicine engineering support, remote handling, hot cell services, shielding, and products through clear service pages and enquiry routes.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive design",
+      "Service-page structure"
+    ],
+    "highlights": [
+      "Organized specialized services and products into a clear business website.",
+      "Provided visible phone, email, and enquiry routes for prospective clients.",
+      "Connected the site to a consistent creator identity without distracting from the client's brand."
+    ],
+    "links": [
+      {
+        "label": "Visit live website",
+        "href": "https://telodynamic.com/"
+      }
+    ],
+    "evidence": [
+      "Live public website",
+      "Service and product pages",
+      "Contact page"
+    ],
+    "roles": [
+      "Web Developer",
+      "Software Developer",
+      "Healthcare Technology"
+    ],
+    "note": "Website and business presentation work. No clinical software or measured lead-growth claims.",
+    "visualType": "business"
+  },
+  {
+    "title": "AI Driving School",
+    "subtitle": "Hamilton & Burlington website preview",
+    "category": "Website Preview / Local Business",
+    "status": "Preview / not a launched business website",
+    "publication": "Preview",
+    "why": "Learners need to understand lesson options, service areas, and how to contact an instructor quickly.",
+    "description": "Created a mobile-friendly website preview for AI Driving School serving Hamilton and Burlington. The concept organizes lesson options, local service information, and enquiry calls to action into an approachable experience.",
+    "tech": [
+      "Website prototyping",
+      "Responsive interface design",
+      "Content structure",
+      "Local service presentation"
+    ],
+    "highlights": [
+      "Designed for students exploring driving lessons in Hamilton and Burlington.",
+      "Made package information and contact actions easier to find.",
+      "Prepared as a reviewable concept while business details and launch requirements are confirmed."
+    ],
+    "links": [
+      {
+        "label": "View website preview",
+        "href": "https://ai-driving-school-hamilton-burlington.solarhawk128.chatgpt.site/"
+      }
+    ],
+    "evidence": [
+      "Hosted website preview",
+      "Responsive page concept",
+      "Package and service-area presentation"
+    ],
+    "roles": [
+      "Web Developer",
+      "Frontend Developer",
+      "Digital Services"
+    ],
+    "note": "Preview only. Business launch, registration delivery, and conversion results are not represented as completed.",
+    "visualType": "driving"
+  }
+]
+];
