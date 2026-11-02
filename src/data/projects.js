@@ -388,7 +388,7 @@ export const clientProjects = [
     "links": [
       {
         "label": "View website preview",
-        "href": "https://ai-driving-school-hamilton-burlington.solarhawk128.chatgpt.site/"
+        "href": "https://ai-driving-school-rho.vercel.app/"
       }
     ],
     "evidence": [
